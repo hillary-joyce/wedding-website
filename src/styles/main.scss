@@ -1,0 +1,22 @@
+@import './partials/normalize';
+@import './partials/skeleton';
+@import './partials/colors.scss';
+
+
+// MENU ITEMS //
+.menu-div {
+  background: $oxford-blue;
+  height: 50px;
+}
+
+.menu-item {
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 1vh;
+}
+
+.menu-item a {
+  font-size: 2rem;
+  color: $harvest-gold;
+  text-decoration: none;
+}
