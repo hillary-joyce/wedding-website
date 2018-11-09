@@ -4,19 +4,120 @@
 
 
 // MENU ITEMS //
-.menu-div {
+.menu {
+  position: fixed;
+  width: 100%;
   background: $oxford-blue;
-  height: 50px;
+  height: 56px;
 }
 
-.menu-item {
-  display: inline-block;
-  padding-left: 100px;
-  padding-top: 1vh;
+.header {
+  height: 60vh;
 }
 
-.menu-item a {
-  font-size: 2rem;
+.menu {
+  color: white;
+}
+.menu-navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+.menu-logo {
+  margin-left: 20px;
+}
+
+.menu-navigation-items a {
   color: $harvest-gold;
   text-decoration: none;
+}
+
+.menu-navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-navigation-items li {
+  padding: 0 0.5rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+
+
+///// Toggle Button ////
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30px;
+  width: 40px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-buttton-line {
+  width: 30px;
+  background: white;
+  height: 3px;
+}
+
+
+///////Sidebar Menu ////////
+.sidebar {
+  height: 100%;
+  background: $dark-cerulean;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+}
+
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+}
+
+.sidebar a {
+  color: $harvest-gold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.sidebar a:hover, .sidebar a:active {
+  color: $isabelline;
+}
+
+//// backdrop ///
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 100;
+  top: 0;
+  left: 0;
 }

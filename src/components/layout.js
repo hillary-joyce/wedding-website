@@ -1,7 +1,7 @@
 import React from "react"
 
 export default ({ children }) => (
-  <div style={{ margin: `0 auto`, maxWidth: 950, padding: `0 1rem` }}>
+  <div style={{marginTop: "64px"}}>
     {children}
   </div>
 )

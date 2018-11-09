@@ -309,6 +309,10 @@
             "version": "^16.5.1"
           },
           {
+            "name": "react-burger-menu",
+            "version": "^2.5.4"
+          },
+          {
             "name": "react-dom",
             "version": "^16.5.1"
           }
@@ -431,12 +435,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-06T10:53:39.121Z",
+      "buildTime": "2018-11-07T11:26:34.959Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a3472fed5319be03de1fcbb8b63662c8",
+        "contentDigest": "f2e9e5579daf24f885ea77bf5faca61c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -564,7 +568,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0f5fa319bc58b51e5915c44df25efe57"
+    "PLUGINS_HASH": "349d3717ee13cbef0d755a26905e662e"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -584,14 +588,6 @@
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/.cache/dev-404-page.js"
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js"
-    },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js": {
-      "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js"
-    },
     "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js": {
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js"
@@ -600,6 +596,10 @@
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js"
     },
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js"
+    },
     "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js": {
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js"
@@ -607,6 +607,10 @@
     "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js": {
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js"
+    },
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js": {
+      "query": "",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js"
     }
   },
   "staticQueryComponents": {}
