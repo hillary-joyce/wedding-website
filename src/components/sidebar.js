@@ -1,8 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Sidebar = props => (
-  <nav className="sidebar">
+const Sidebar = props => {
+  let sidebarClasses = 'sidebar';
+  if (props.show) {
+    sidebarClasses = 'sidebar open'
+  }
+  return (
+  <nav className={sidebarClasses}>
+    <div onClick={props.hideSidebar} className="sidebar-close-btn">X</div>
     <ul>
       <li className="sidebar-menu-item"><Link to="/travel">Travel</Link></li>
       <li className="sidebar-menu-item"><Link to="/activities">Things to Do</Link></li>
@@ -12,5 +18,5 @@ const Sidebar = props => (
     </ul>
   </nav>
 )
-
+}
 export default Sidebar

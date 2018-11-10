@@ -6,13 +6,38 @@ import Backdrop from "../components/backdrop"
 import '../styles/main.scss'
 import icon from '../../public/favicon.png'
 
-const indexPage = () => (
-  <div style={{height: "100%"}}>
-    <Menu />
-    <Sidebar />
-    <Backdrop />
-    <Header style={{marginTop: "64px"}} imgSrc={icon} title="Hillary & Mark"/>
-  </div>
-)
+class IndexPage extends React.Component {
+  state = {
+    sidebarOpen: false
+  }
 
-export default indexPage
+  sidebarToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sidebarOpen: !prevState.sidebarOpen}
+    })
+  }
+
+  backdropClickHandler = () => {
+    this.setState({sidebarOpen: false})
+  }
+
+  render(){
+    let backdrop;
+
+    if (this.state.sidebarOpen) {
+      backdrop = <Backdrop hideSidebar={this.backdropClickHandler}/>
+    }
+
+    return (
+      <div style={{height: "100%"}}>
+        <Menu toggleMenu={this.sidebarToggleClickHandler} />
+        <Sidebar show={this.state.sidebarOpen} hideSidebar={this.backdropClickHandler}/>
+        {backdrop}
+        <Header style={{marginTop: "64px"}} imgSrc={icon} title="Hillary & Mark"/>
+      </div>
+    )
+  }
+}
+
+
+export default IndexPage

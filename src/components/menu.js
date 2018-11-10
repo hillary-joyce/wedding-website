@@ -8,7 +8,7 @@ const showMenu = (event) => {
 const menu = props => (
   <header className="menu">
     <div className="menu-navigation">
-      <div><SidebarToggleButton /></div>
+      <div className="sidebar-toggle-btn-div" onClick={props.toggleMenu}><SidebarToggleButton /></div>
       <div className="menu-logo">Logo</div>
       <div className="spacer"/>
       <div className="menu-logo"><Link to="/"></Link></div>
