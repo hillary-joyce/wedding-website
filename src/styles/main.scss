@@ -1,125 +1,16 @@
 @import './partials/normalize';
-@import './partials/skeleton';
 @import './partials/colors.scss';
+@import './partials/fonts.scss';
+@import './partials/skeleton.scss';
 
+@import './components/menu.scss';
+@import './components/sidebar.scss';
 
-// MENU ITEMS //
-.menu {
-  position: fixed;
-  width: 100%;
-  background: $oxford-blue;
-  height: 56px;
-}
-
-.header {
-  height: 60vh;
-}
-
-.menu {
-  color: white;
-}
-.menu-navigation {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-
-.menu-logo {
-  margin-left: 20px;
-}
-
-.menu-navigation-items a {
-  color: $harvest-gold;
-  text-decoration: none;
-}
-
-.menu-navigation-items ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.menu-navigation-items li {
-  padding: 0 0.5rem;
-}
-
-.spacer {
-  flex: 1;
-}
-
-
-
-///// Toggle Button ////
-.toggle-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 30px;
-  width: 40px;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  margin-left: 1rem;
-}
-
-.toggle-button:focus {
-  outline: none;
-}
-
-.toggle-buttton-line {
-  width: 30px;
-  background: white;
-  height: 3px;
-}
-
-
-///////Sidebar Menu ////////
-.sidebar {
-  height: 100%;
-  background: $dark-cerulean;
-  position: fixed;
-  box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
-  width: 70%;
-  max-width: 400px;
-  z-index: 200;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-out;
-}
-
-.sidebar.open {
-  transform: translateX(0);
-}
-.sidebar ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px;
-}
-
-.sidebar li {
-  margin: 0.5rem 0;
-}
-
-.sidebar a {
-  color: $harvest-gold;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.sidebar a:hover, .sidebar a:active {
-  color: $isabelline;
-}
-
-.sidebar-close-btn:hover {
-  color: $isabelline;
-  cursor: pointer;
+html, body {
+  background: $isabelline;
+  font-family: $poppins;
+  font-weight: 300;
+  color: $oxford-blue;
 }
 
 //// backdrop ///
@@ -148,4 +39,57 @@
   .sidebar-toggle-btn-div {
     display: none;
   }
+}
+
+
+
+/////// Header ///////
+.header {
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  font-family: $abril-ff;
+  font-size: 13vw;
+  width: 50%;
+  padding-left: 2vw;
+  color: $isabelline;
+}
+
+@media (max-width: 768px) {
+  .header {
+    align-items: flex-start;
+  }
+  .header-title {
+    font-size: 9rem;
+    margin-top: 50px;
+    margin-left: 5vw;
+  }
+}
+
+////// GRID //////
+.info-grid {
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  justify-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-cell {
+  font-size: 2rem;
 }

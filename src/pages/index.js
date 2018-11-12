@@ -1,43 +1,44 @@
 import React from "react"
-import Menu from "../components/menu"
-import Sidebar from "../components/sidebar"
+import Layout from "../components/layout"
 import Header from "../components/header"
-import Backdrop from "../components/backdrop"
+import Icon from "../components/icon"
+import { FiClock } from "react-icons/fi"
+import { FiMapPin } from "react-icons/fi"
 import '../styles/main.scss'
-import icon from '../../public/favicon.png'
+import IndexHeaderBackground from '../../public/index-header-bg.jpg'
 
-class IndexPage extends React.Component {
-  state = {
-    sidebarOpen: false
-  }
+const IndexPage = () => (
+  <Layout>
+    <Header imgSrc={IndexHeaderBackground} title="Mark & Hillary"/>
+    <div style={{height:"60vh"}}  className="container">
+      <div className="two info-grid">
+        <div className="grid-cell">
+          <Icon size="5rem">
+            <FiClock />
+          </Icon>
+          <h1>When</h1>
+          <div>Saturday</div>
+          <div>September 28 2019</div>
+          <div>4:00 PM</div>
+          <br/>
+          <button className="button">Add to Calendar</button>
+        </div>
 
-  sidebarToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {sidebarOpen: !prevState.sidebarOpen}
-    })
-  }
-
-  backdropClickHandler = () => {
-    this.setState({sidebarOpen: false})
-  }
-
-  render(){
-    let backdrop;
-
-    if (this.state.sidebarOpen) {
-      backdrop = <Backdrop hideSidebar={this.backdropClickHandler}/>
-    }
-
-    return (
-      <div style={{height: "100%"}}>
-        <Menu toggleMenu={this.sidebarToggleClickHandler} />
-        <Sidebar show={this.state.sidebarOpen} hideSidebar={this.backdropClickHandler}/>
-        {backdrop}
-        <Header style={{marginTop: "64px"}} imgSrc={icon} title="Hillary & Mark"/>
+        <div className="grid-cell">
+          <Icon size="5rem">
+            <FiMapPin />
+          </Icon>
+          <h1>Where</h1>
+          <div>St. Francis Hall</div>
+          <div>1340 Quincy St NE</div>
+          <div>Washington, DC 20017</div>
+          <br/>
+          <button className="button">get directions</button>
+        </div>
       </div>
-    )
-  }
-}
+    </div>
+  </Layout>
+)
 
 
 export default IndexPage

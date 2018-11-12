@@ -315,6 +315,10 @@
           {
             "name": "react-dom",
             "version": "^16.5.1"
+          },
+          {
+            "name": "react-icons",
+            "version": "^3.2.2"
           }
         ],
         "devDependencies": [],
@@ -435,12 +439,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-10T12:34:32.494Z",
+      "buildTime": "2018-11-11T15:25:06.458Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8d6e652d1112609562e1cd874b1c7c1f",
+        "contentDigest": "9c0be0a73423fbfc27b396e2efa9ccb0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -568,7 +572,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "349d3717ee13cbef0d755a26905e662e"
+    "PLUGINS_HASH": "58af362767baa893528b32f1bf2ff7d7"
   },
   "componentDataDependencies": {
     "nodes": {},
