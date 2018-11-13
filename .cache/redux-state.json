@@ -439,12 +439,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-11T15:25:06.458Z",
+      "buildTime": "2018-11-13T02:06:50.664Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9c0be0a73423fbfc27b396e2efa9ccb0",
+        "contentDigest": "37a9f971e4f53e9d60a91fd81350c0ed",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

@@ -10,7 +10,7 @@ import IndexHeaderBackground from '../../public/index-header-bg.jpg'
 const IndexPage = () => (
   <Layout>
     <Header imgSrc={IndexHeaderBackground} title="Mark & Hillary"/>
-    <div style={{height:"60vh"}}  className="container">
+    <div style={{height: "100vh"}}className="container">
       <div className="two info-grid">
         <div className="grid-cell">
           <Icon size="5rem">
@@ -36,6 +36,7 @@ const IndexPage = () => (
           <button className="button">get directions</button>
         </div>
       </div>
+
     </div>
   </Layout>
 )

@@ -1,8 +1,14 @@
 .menu {
   position: fixed;
   width: 100%;
-  background: $oxford-blue;
-  height: 56px;
+  background: $isabelline;
+  height: 70px;
+  border-bottom: 1px solid $dark-cerulean;
+}
+
+.constellation-icon img{
+  height: 50px;
+  margin-left: 1rem;
 }
 
 .menu-navigation {
@@ -11,17 +17,18 @@
   height: 100%;
 }
 
-.menu-logo {
-  margin-left: 20px;
+.home-logo {
+  margin-left: 10px;
   height: 35px;
 }
 
-.menu-logo img{
-  height: 100%;
+.page-title {
+  color: $dark-cerulean;
+  font-family: $abril-ff;
+  font-size: 4rem;
 }
-
 .menu-navigation-items a {
-  color: $harvest-gold;
+  color: $dark-cerulean;
   text-decoration: none;
 }
 
@@ -34,11 +41,11 @@
 
 .menu-navigation-items li {
   padding: 0 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .menu-item a:hover, .menu-item a:active {
-  color: $isabelline;
+  color: $queen-blue;
 }
 
 .spacer {
@@ -66,6 +73,6 @@
 
 .toggle-buttton-line {
   width: 30px;
-  background: white;
+  background: $dark-cerulean;
   height: 3px;
 }

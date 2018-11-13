@@ -10,6 +10,7 @@ const Sidebar = props => {
   <nav className={sidebarClasses}>
     <div onClick={props.hideSidebar} className="sidebar-close-btn">x</div>
     <ul>
+      <li className="sidebar-menu-item"><Link to="/">Home</Link></li>
       <li className="sidebar-menu-item"><Link to="/travel">Travel</Link></li>
       <li className="sidebar-menu-item"><Link to="/activities">Things to Do</Link></li>
       <li className="sidebar-menu-item"><Link to="/faq">FAQs</Link></li>

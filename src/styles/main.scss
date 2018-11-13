@@ -2,11 +2,10 @@
 @import './partials/colors.scss';
 @import './partials/fonts.scss';
 @import './partials/skeleton.scss';
-
 @import './components/menu.scss';
 @import './components/sidebar.scss';
 
-html, body {
+body {
   background: $isabelline;
   font-family: $poppins;
   font-weight: 300;
@@ -26,8 +25,11 @@ html, body {
 
 ////Media queries sidebar ////
 @media (max-width: 768px) {
-  .menu-navigation-items {
+  .menu-navigation-items, .spacer {
     display: none;
+  }
+  .menu-navigation {
+    justify-content: space-between;
   }
 }
 
@@ -45,25 +47,28 @@ html, body {
 
 /////// Header ///////
 .header {
-  height: 90vh;
+  padding-top: 60px;
+  height: 70vh;
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+
 }
 
 .header-title {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
   font-family: $abril-ff;
-  font-size: 13vw;
+  font-size: 15rem;
   width: 50%;
   padding-left: 2vw;
   color: $isabelline;
 }
 
-@media (max-width: 768px) {
+@media (max-width:415px) {
   .header {
     align-items: flex-start;
   }
@@ -74,14 +79,27 @@ html, body {
   }
 }
 
+
 ////// GRID //////
+.grid-title {
+  text-align: center;
+  margin-top: 40px;
+}
 .info-grid {
   margin-top: 10vh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 40px;
   justify-items: center;
   text-align: center;
+}
+
+.two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 768px) {
@@ -93,3 +111,12 @@ html, body {
 .grid-cell {
   font-size: 2rem;
 }
+
+
+
+.container {
+  z-index: -1;
+}
+
+
+///////////// Travel Page ///////////
