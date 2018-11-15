@@ -4,8 +4,9 @@ import Header from "../components/header"
 import Icon from "../components/icon"
 import { FiClock } from "react-icons/fi"
 import { FiMapPin } from "react-icons/fi"
-import '../styles/main.scss'
+
 import IndexHeaderBackground from '../../public/index-header-bg.jpg'
+
 
 const IndexPage = () => (
   <Layout>

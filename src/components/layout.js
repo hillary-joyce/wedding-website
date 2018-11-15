@@ -3,6 +3,7 @@ import Menu from "../components/menu"
 import Sidebar from "../components/sidebar"
 import Backdrop from "../components/backdrop"
 
+
 class Layout extends React.Component {
   state = {
     sidebarOpen: false
