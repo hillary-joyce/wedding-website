@@ -1,9 +1,9 @@
 .menu {
   position: fixed;
   width: 100%;
-  background: $isabelline;
+  background: none;
   height: 70px;
-  border-bottom: 1px solid $dark-cerulean;
+  background: $isabelline;
 }
 
 .constellation-icon img{
@@ -22,11 +22,6 @@
   height: 35px;
 }
 
-.page-title {
-  color: $dark-cerulean;
-  font-family: $abril-ff;
-  font-size: 4rem;
-}
 .menu-navigation-items a {
   color: $dark-cerulean;
   text-decoration: none;
@@ -41,7 +36,7 @@
 
 .menu-navigation-items li {
   padding: 0 2rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .menu-item a:hover, .menu-item a:active {

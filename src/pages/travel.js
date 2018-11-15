@@ -2,8 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Icon from "../components/icon"
+import PageTitle from "../components/pageTitle"
 import '../styles/main.scss'
-import TravelHeaderBackground from '../../public/travel-bg.jpg'
+import TravelStarMap from "../../public/travel_star_map.png"
+
 import { IoMdAirplane } from "react-icons/io"
 import { IoMdTrain } from "react-icons/io"
 import { IoIosBed } from "react-icons/io"
@@ -11,7 +13,7 @@ import { IoIosBed } from "react-icons/io"
 
 const Travel = () => (
   <Layout>
-    <Header id="travel-header" imgSrc={TravelHeaderBackground} title="Travel"/>
+    <PageTitle pageName="Travel" imgsrc={TravelStarMap} />
     <div style={{height: "100vh"}} className="container">
       <div className="grid-title">
         <Icon size="5rem">

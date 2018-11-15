@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SidebarToggleButton from "./sidebarToggleButton"
-import Logo from "../../public/orion_icon.png"
+import Logo from "../../public/libra-logo.png"
 
 const showMenu = (event) => {
   console.log("hello world");

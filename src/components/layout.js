@@ -3,7 +3,7 @@ import Menu from "../components/menu"
 import Sidebar from "../components/sidebar"
 import Backdrop from "../components/backdrop"
 
-class IndexPage extends React.Component {
+class Layout extends React.Component {
   state = {
     sidebarOpen: false
   }
@@ -36,4 +36,4 @@ class IndexPage extends React.Component {
   }
 }
 
-export default IndexPage
+export default Layout
