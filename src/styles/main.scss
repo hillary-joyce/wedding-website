@@ -122,28 +122,34 @@ body {
 
 ///////////// Travel Page ///////////
 .page-title {
-  padding-top: 125px;
+  padding-top: 100px;
   text-align: center;
-  height: 400px;
-  width: 400px;
+  height: 425px;
+  width: 425px;
   margin: 0 auto;
   margin-bottom: 175px;
 }
 
-.page-title img {
-  height: 400px;
-}
 
 .page-name {
+  width: 400px;
+  margin: 0 auto;
   font-family: $abril-ff;
-  font-weight: 900;
-  color: white;
-  margin-top: -325px;
-  font-size: 14rem;
-  text-shadow: 0 0 60px rgba(0, 0, 0, 1);
+  color: $isabelline;
+  margin-top: -335px;
+  font-size: 150px;
+  text-shadow: 0 0 80px rgba(0, 0, 0, 1);
 }
 
+
+
+//////////// Activities Page /////////////
 #activities {
   font-size: 10rem;
-  margin-top: -320px;
+  margin-top: -350px;
+}
+
+.activity-img {
+  width: 200px;
+  border-radius: 50%;
 }
