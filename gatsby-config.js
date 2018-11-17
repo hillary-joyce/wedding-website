@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Abril Fatface', 'Poppins']
+          families: ['Lobster Two', 'Raleway\:100,700']
         }
       }
     }

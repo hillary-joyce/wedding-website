@@ -11,7 +11,7 @@ import IndexHeaderBackground from '../../public/index-header-bg.jpg'
 const IndexPage = () => (
   <Layout>
     <Header imgSrc={IndexHeaderBackground} title="Mark & Hillary"/>
-    <div style={{height: "100vh"}}className="container">
+    <div style={{paddingBottom: "200px"}}className="container">
       <div className="two info-grid">
         <div className="grid-cell">
           <Icon size="5rem">

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import Header from "../components/header"
 import Icon from "../components/icon"
 import PageTitle from "../components/pageTitle"
 import '../styles/main.scss'
