@@ -19,7 +19,6 @@ const menu = props => (
           <li className="menu-item"><Link to="/activities">Activities</Link></li>
           <li className="menu-item"><Link to="/faq">FAQs</Link></li>
           <li className="menu-item"><Link to="/registry">Registry</Link></li>
-          <li className="menu-item"><Link to="/rsvp">RSVP</Link></li>
         </ul>
       </div>
     </div>

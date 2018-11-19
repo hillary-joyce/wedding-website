@@ -81,7 +81,33 @@ const Activities = () => (
 
 
     <div className="grid-title"><h1>Food & Drink</h1></div>
-    
+    <div className="three info-grid">
+      <div className="grid-cell">
+        <h3>Penn Social</h3>
+        <p>Located in the heart of DC, this bar has arcade basketball, cornhole, and
+        plenty of arcade games.</p>
+      </div>
+      <div className="grid-cell">
+        <h3>Good Stuff Eatery</h3>
+        <p>Mark's favorite burger joint in DC, with fresh ingredients and delicious sauces.</p>
+      </div>
+      <div className="grid-cell">
+        <h3>Board Room</h3>
+        <p>Spend an afternoon playing one of their dozens of board games that you can rent for just $1.</p>
+      </div>
+      <div className="grid-cell">
+        <h3>Ambar</h3>
+        <p>Looking for something different? Ambar serves delicious authentic Balkan food.</p>
+      </div>
+      <div className="grid-cell">
+        <h3>Falafel Inc.</h3>
+        <p>Tucked back on a side street in Georgetown, this little restaurant serves amazing Mediterranian food.</p>
+      </div>
+      <div className="grid-cell">
+        <h3>Tony & Joe's</h3>
+        <p>Tony & Joe's serves some of the freshest seafood in all of DC. Try the local blue crab, a staple of the area!</p>
+      </div>
+    </div>
 
   </div>
   </Layout>
