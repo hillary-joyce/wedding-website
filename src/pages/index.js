@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Icon from "../components/icon"
+import Button from "../components/button"
 import { FiClock } from "react-icons/fi"
 import { FiMapPin } from "react-icons/fi"
 
@@ -34,7 +35,7 @@ const IndexPage = () => (
           <div>1340 Quincy St NE</div>
           <div>Washington, DC 20017</div>
           <br/>
-          <button className="button">get directions</button>
+          <Button id="viewMap" content="View Map" /> 
         </div>
       </div>
 

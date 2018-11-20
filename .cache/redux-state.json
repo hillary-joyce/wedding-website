@@ -357,9 +357,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "936881d1-4f72-50ed-a00e-0fb68904f913": {
+    "3b7c3f72-9002-5d36-9633-21bbcc31567c": {
       "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader",
-      "id": "936881d1-4f72-50ed-a00e-0fb68904f913",
+      "id": "3b7c3f72-9002-5d36-9633-21bbcc31567c",
       "name": "gatsby-plugin-web-font-loader",
       "version": "1.0.4",
       "pluginOptions": {
@@ -367,7 +367,7 @@
         "google": {
           "families": [
             "Lobster Two",
-            "Raleway:100,700"
+            "Raleway:300,700"
           ]
         }
       },
@@ -428,7 +428,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "87772b9c4da5b077577c0045ce02bdd0",
+        "contentDigest": "b0fd561af48898833a095020f7e0ff7c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -437,7 +437,7 @@
       "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "5be0b205651438c2f8e4594072058d12",
+      "version": "c5fede1016f1a3577eefcf5260daa4b5",
       "pluginOptions": {
         "plugins": []
       },
@@ -507,7 +507,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "de53eeb0c36f4cccd97aa0a9e1e31502",
+        "contentDigest": "cdf0039e77fb824af37e8ce63bbdfc17",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -617,12 +617,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-19T00:39:28.630Z",
+      "buildTime": "2018-11-20T02:05:41.193Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3ecf030a2368bad17e808dab9c49fbc5",
+        "contentDigest": "0b4f4a6b0ca9b3e30243aff663e45092",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -750,7 +750,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a794bb58e1b81390967fc0005aa3fa43"
+    "PLUGINS_HASH": "8d2b10654562445099e0b766cd858b06"
   },
   "componentDataDependencies": {
     "nodes": {},

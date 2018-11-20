@@ -15,7 +15,6 @@ const Sidebar = props => {
       <li className="sidebar-menu-item"><Link to="/activities">Things to Do</Link></li>
       <li className="sidebar-menu-item"><Link to="/faq">FAQs</Link></li>
       <li className="sidebar-menu-item"><Link to="/registry">Registry</Link></li>
-      <li className="sidebar-menu-item"><Link to="/rsvp">RSVP</Link></li>
     </ul>
   </nav>
 )

@@ -8,7 +8,8 @@ import TravelStarMap from "../../public/travel_star_map.png"
 const RSVP = () => (
   <Layout>
     <PageTitle pageName="RSVP" imgsrc={TravelStarMap} />
-    <div style={{height: "100vh"}} className="container"></div>
+    <div style={{height: "100vh"}} className="container">
+    </div>
   </Layout>
 )
 
