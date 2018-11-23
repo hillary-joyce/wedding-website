@@ -475,6 +475,10 @@
             "version": "^16.5.1"
           },
           {
+            "name": "react-add-to-calendar",
+            "version": "^0.1.5"
+          },
+          {
             "name": "react-burger-menu",
             "version": "^2.5.4"
           },
@@ -617,12 +621,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-22T12:41:15.775Z",
+      "buildTime": "2018-11-23T14:22:30.740Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "13e983e091fc60df1f0dd6640d25b20b",
+        "contentDigest": "af542b2a5477a4dd1749159efc1941fe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -750,7 +754,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "49db5cbc3bb026b9c98dd2295d1f5dea"
+    "PLUGINS_HASH": "19b9f2d55517ac7da9a8d1b87b42528e"
   },
   "componentDataDependencies": {
     "nodes": {},

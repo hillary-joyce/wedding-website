@@ -60,39 +60,38 @@ body {
   font-size: 2rem;
 }
 
-.container {
-  z-index: -1;
-}
-
 
 ///////////// Travel Page ///////////
 #travel-pg{
   height: 45vh;
   padding-top: 0;
-  background-attachment: fixed;
   background-position: top;
   background-repeat: repeat-x;
-  background-clip: text;
   background-size: 70%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 #travel-pg .header-title {
-  font-size: 200px;
+  font-size: 185px;
 }
 
 
 
 //////////// Activities Page /////////////
-#activities {
-  font-size: 10rem;
-  margin-top: -350px;
+#activities-pg{
+  height: 45vh;
+  padding-top: 0;
+  background-position: top;
+  background-repeat: repeat-x;
+  background-size: 70%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
 }
 
 .activity-img {
-  width: 200px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -100,4 +99,38 @@ body {
 ////// Registry Page //////////
 #registry-page-title {
   font-size: 125px;
+}
+
+
+//////// Buttons ////////////
+.button {
+  border: 2px solid $oxford-blue;
+  color: $oxford-blue;
+  font-size: 1.5rem;
+}
+
+.button a, .react-add-to-calendar__button {
+  color: $oxford-blue;
+}
+
+.button:hover {
+  border: 2px solid $queen-blue;
+  color: $queen-blue;
+}
+
+.button a:hover {
+  color: $queen-blue;
+}
+
+
+/////// Add to Calendar ///////
+.react-add-to-calendar__dropdown ul {
+  list-style: none;
+}
+
+.react-add-to-calendar__dropdown a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: $poppins;
+  text-transform: none;
 }

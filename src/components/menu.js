@@ -17,8 +17,6 @@ const menu = props => (
           <li className="menu-item"><Link to="/">Home</Link></li>
           <li className="menu-item"><Link to="/travel">Travel</Link></li>
           <li className="menu-item"><Link to="/activities">Activities</Link></li>
-          <li className="menu-item"><Link to="/faq">FAQs</Link></li>
-          <li className="menu-item"><Link to="/registry">Registry</Link></li>
         </ul>
       </div>
     </div>
@@ -27,3 +25,7 @@ const menu = props => (
 
 
 export default menu
+
+// Pages to add in later
+// <li className="menu-item"><Link to="/faq">FAQs</Link></li>
+// <li className="menu-item"><Link to="/registry">Registry</Link></li>

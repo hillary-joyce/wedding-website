@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Icon from "../components/icon"
-import PageTitle from "../components/pageTitle"
+import Header from "../components/header"
 import '../styles/main.scss'
 import TravelStarMap from "../../public/travel_star_map.png"
 
@@ -14,7 +14,7 @@ import ArlingtonImg from "../../public/places-images/arlington.jpg"
 
 const Activities = () => (
   <Layout>
-  <PageTitle pageName="Welcome to DC" imgsrc={TravelStarMap} id="activities"/>
+  <Header id="activities-pg" imgSrc={TravelStarMap} title="Welcome to DC"/>
   <div style={{height: "100vh"}} className="container">
     <div className="grid-title"><h1>Things to Do</h1></div>
     <div className="two info-grid">

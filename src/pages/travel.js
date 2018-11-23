@@ -23,28 +23,25 @@ const Travel = () => (
       </div>
       <div className="three info-grid">
         <div className="grid-cell">
-          <h3>Reagan International (DCA)</h3>
+          <h3>Reagan National Airport (DCA)</h3>
           <p>
-          Simple traveling adventure darn theme,
-          darn blogger expedition travelblogger organized simple webdesign.
+          The closest airport to Washington DC, National is just a 20 minute metro ride from
+          downtown.
           </p>
-          <button className="button">Book Flight</button>
         </div>
         <div className="grid-cell">
-          <h3>Reagan International (DCA)</h3>
+          <h3>Dulles International Airport (IAD)</h3>
           <p>
-          Simple traveling adventure darn theme,
-          darn blogger expedition travelblogger organized simple webdesign.
+          About 40 minutes outside the city, Dulles is a large airport servicing most of the
+          United States.
           </p>
-          <button className="button">Book Flight</button>
         </div>
         <div className="grid-cell">
-          <h3>Reagan International (DCA)</h3>
+          <h3>Baltimore-Washington (BWI)</h3>
           <p>
-          Simple traveling adventure darn theme,
-          darn blogger expedition travelblogger organized simple webdesign.
+          Just south of Baltimore and about an hour from Washington DC, BWI is a major hub
+          for Southwest Airlines.
           </p>
-          <button className="button">Book Flight</button>
         </div>
       </div>
 
@@ -59,18 +56,17 @@ const Travel = () => (
         <div className="grid-cell">
           <h3>Metro</h3>
           <p>
-          Simple traveling adventure darn theme,
-          darn blogger expedition travelblogger organized simple webdesign.
+          The Washington Metro system stretches from Maryland down to the suburbs of
+          Virginia. Visit the <a href="https://www.wmata.com/">WMATA website</a> for
+          more information.
           </p>
-          <button className="button">Visit WMATA Website</button>
         </div>
         <div className="grid-cell">
           <h3>Car Rental</h3>
           <p>
-          Simple traveling adventure darn theme,
-          darn blogger expedition travelblogger organized simple webdesign.
+          All three airports listed above have car rentals on site. While parking can
+          be difficult in DC, our venue has plenty of spaces!
           </p>
-          <button className="button">Rent a Car</button>
         </div>
       </div>
 

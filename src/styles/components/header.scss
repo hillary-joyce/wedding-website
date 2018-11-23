@@ -12,9 +12,9 @@
 }
 
 .header-title {
-  // text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
   font-family: $abril-ff;
-  font-size: 15rem;
+  font-size: 13rem;
   padding-left: 2vw;
   color: $isabelline;
 }
@@ -22,13 +22,25 @@
 
 
 ////////// MEDIA QUERIES /////////////////
-@media (max-width:415px) {
+
+@media (max-width:900px) {
   .header {
     align-items: flex-start;
   }
   .header-title {
-    font-size: 9rem;
+    font-size: 8rem;
     margin-top: 50px;
-    margin-left: 5vw;
+  }
+}
+
+@media (max-width:580px) {
+  .header-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .header-title {
+    font-size: 4rem;
   }
 }
