@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Icon from "../components/icon"
 import PageTitle from "../components/pageTitle"
+import Header from "../components/header"
 import '../styles/main.scss'
 import TravelStarMap from "../../public/travel_star_map.png"
 
@@ -12,7 +13,7 @@ import { IoIosBed } from "react-icons/io"
 
 const Travel = () => (
   <Layout>
-    <PageTitle pageName="Travel" imgsrc={TravelStarMap} />
+    <Header id="travel-pg" imgSrc={TravelStarMap} title="Travel"/>
     <div style={{height: "100vh"}} className="container">
       <div className="grid-title">
         <Icon size="5rem">

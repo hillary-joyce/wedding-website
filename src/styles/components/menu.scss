@@ -1,14 +1,17 @@
+@import '../partials/mixins.scss';
+
 .menu {
   position: fixed;
   width: 100%;
   background: none;
-  height: 70px;
-  background: $oxford-blue;
+  height: 45px;
+  background: $dark-cerulean;
+  border-bottom: 1px solid $oxford-blue;
 }
 
 .constellation-icon img{
-  margin-top: 15px;
-  height: 50px;
+  margin-top: 22px;
+  height: 40px;
   margin-left: 1rem;
 }
 
@@ -16,11 +19,6 @@
   display: flex;
   align-items: center;
   height: 100%;
-}
-
-.home-logo {
-  margin-left: 10px;
-  height: 35px;
 }
 
 .menu-navigation-items a {
@@ -36,8 +34,9 @@
 }
 
 .menu-navigation-items li {
-  padding: 0 1.5rem;
-  font-size: 2rem;
+  padding: 0 1.75rem;
+  font-size: 2.1rem;
+  margin-bottom: 0;
 }
 
 .menu-item a:hover, .menu-item a:active {

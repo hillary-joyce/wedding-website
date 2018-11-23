@@ -4,6 +4,8 @@
 @import './partials/skeleton.scss';
 @import './components/menu.scss';
 @import './components/sidebar.scss';
+@import './partials/mixins.scss';
+@import './components/header.scss';
 
 body {
   background: $isabelline;
@@ -21,62 +23,6 @@ body {
   z-index: 100;
   top: 0;
   left: 0;
-}
-
-////Media queries sidebar ////
-@media (max-width: 768px) {
-  .menu-navigation-items, .spacer {
-    display: none;
-  }
-  .menu-navigation {
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 769px) {
-  .sidebar {
-    display: none;
-  }
-
-  .sidebar-toggle-btn-div {
-    display: none;
-  }
-}
-
-
-
-/////// Header ///////
-.header {
-  padding-top: 90px;
-  height: 90vh;
-  background-attachment: fixed;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
-}
-
-.header-title {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-  font-family: $abril-ff;
-  font-size: 15rem;
-  width: 50%;
-  padding-left: 2vw;
-  color: $isabelline;
-}
-
-@media (max-width:415px) {
-  .header {
-    align-items: flex-start;
-  }
-  .header-title {
-    font-size: 9rem;
-    margin-top: 50px;
-    margin-left: 5vw;
-  }
 }
 
 
@@ -120,24 +66,21 @@ body {
 
 
 ///////////// Travel Page ///////////
-.page-title {
-  padding-top: 100px;
-  text-align: center;
-  height: 425px;
-  width: 425px;
-  margin: 0 auto;
-  margin-bottom: 175px;
+#travel-pg{
+  height: 45vh;
+  padding-top: 0;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: repeat-x;
+  background-clip: text;
+  background-size: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.page-name {
-  width: 400px;
-  margin: 0 auto;
-  font-family: $abril-ff;
-  color: $isabelline;
-  margin-top: -335px;
-  font-size: 150px;
-  text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+#travel-pg .header-title {
+  font-size: 200px;
 }
 
 

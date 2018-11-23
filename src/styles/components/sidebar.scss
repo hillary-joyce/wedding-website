@@ -51,3 +51,26 @@
   color: $isabelline;
   cursor: pointer;
 }
+
+
+
+
+///////////// MEDIA QUERIES /////////////////
+@media (max-width: 768px) {
+  .menu-navigation-items, .spacer {
+    display: none;
+  }
+  .menu-navigation {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 769px) {
+  .sidebar {
+    display: none;
+  }
+
+  .sidebar-toggle-btn-div {
+    display: none;
+  }
+}
