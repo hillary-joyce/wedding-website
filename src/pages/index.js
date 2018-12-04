@@ -6,6 +6,7 @@ import Button from "../components/button"
 import { FiClock } from "react-icons/fi"
 import { FiMapPin } from "react-icons/fi"
 import AddToCalendar from 'react-add-to-calendar';
+import "../styles/main.scss"
 
 import IndexHeaderBackground from '../../public/index-header-bg.jpg'
 

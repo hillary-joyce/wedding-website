@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import Icon from "../components/icon"
-import PageTitle from "../components/pageTitle"
 import Header from "../components/header"
 import '../styles/main.scss'
 import TravelStarMap from "../../public/travel_star_map.png"
@@ -9,6 +8,8 @@ import TravelStarMap from "../../public/travel_star_map.png"
 import { IoMdAirplane } from "react-icons/io"
 import { IoMdTrain } from "react-icons/io"
 import { IoIosBed } from "react-icons/io"
+
+import "../styles/main.scss"
 
 
 const Travel = () => (
@@ -23,14 +24,14 @@ const Travel = () => (
       </div>
       <div className="three info-grid">
         <div className="grid-cell">
-          <h3>Reagan National Airport (DCA)</h3>
+          <h3>Reagan <br/> National (DCA)</h3>
           <p>
           The closest airport to Washington DC, National is just a 20 minute metro ride from
           downtown.
           </p>
         </div>
         <div className="grid-cell">
-          <h3>Dulles International Airport (IAD)</h3>
+          <h3>Dulles International (IAD)</h3>
           <p>
           About 40 minutes outside the city, Dulles is a large airport servicing most of the
           United States.
@@ -39,7 +40,7 @@ const Travel = () => (
         <div className="grid-cell">
           <h3>Baltimore-Washington (BWI)</h3>
           <p>
-          Just south of Baltimore and about an hour from Washington DC, BWI is a major hub
+          Just south of Baltimore and about an hour from Washington, BWI is a major hub
           for Southwest Airlines.
           </p>
         </div>

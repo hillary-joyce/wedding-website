@@ -13,10 +13,12 @@ const Sidebar = props => {
       <li className="sidebar-menu-item"><Link to="/">Home</Link></li>
       <li className="sidebar-menu-item"><Link to="/travel">Travel</Link></li>
       <li className="sidebar-menu-item"><Link to="/activities">Things to Do</Link></li>
-      <li className="sidebar-menu-item"><Link to="/faq">FAQs</Link></li>
-      <li className="sidebar-menu-item"><Link to="/registry">Registry</Link></li>
     </ul>
   </nav>
 )
 }
 export default Sidebar
+
+
+//<li className="sidebar-menu-item"><Link to="/faq">FAQs</Link></li>
+//<li className="sidebar-menu-item"><Link to="/registry">Registry</Link></li>

@@ -1,12 +1,14 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography.js`,
+    resolve: `gatsby-plugin-sass`,
+    options: {
+      includePaths: ["src/styles/main.scss"],
+      cssLoaderOptions: {
+        camelCase: false,
       },
+      }
     },
-    `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {

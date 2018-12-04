@@ -23,17 +23,17 @@ const Activities = () => (
         <h3>The National Mall</h3>
         <p>In the shadow of the Washington Monument is a place that truly
         captures the spirit of America - for on those grass fields is the spot
-        that Hillary and Mark met on an intramural soccer team. It is also home
-        to some of America’s greatest monuments. Stretching nearly 2 miles from
-        the Capitol Building to the Lincoln Memorial, it’s a place to take a
-        stroll through history.</p>
+        that Hillary and Mark met playing soccer. Stretching nearly 2 miles from
+        the Capitol Building to the Lincoln Memorial, the mall is home to some
+        of America’s greatest monuments, and a great place to take a stroll through
+        history.</p>
       </div>
       <div className="grid-cell">
         <img className="activity-img" src={SmithsonianImg}/>
         <h3>Smithsonian Museums</h3>
-        <p>The Smithsonian Air & Space Museum boasts the rare honor of being the
+        <p>The Smithsonian Air & Space Museum boasts the honor of being the
         location of one of Hillary and Mark’s first dates. It is also the most
-        visited museum in the world. Spend an afternoon viewing the Spirit of
+        visited museum in the world. Spend an afternoon with the Spirit of
         St. Louis and the Lunar Module, or visit one of the other 16 world-class
         Smithsonian museums. Admission is always free, and subjects range from
         American craft to Natural History.</p>
@@ -41,24 +41,24 @@ const Activities = () => (
       <div className="grid-cell">
         <img className="activity-img" src={GeorgetownImg}/>
         <h3>Georgetown</h3>
-        <p>Early into dating, Mark took Hillary to a bar in Georgetown to see his
+        <p>Early into dating, Mark took Hillary to Georgetown to see his
         wonderfully talented sister Lena sing. Afterwards they went to the
-        Georgetown Piano Bar, and watched as two of Mark’s favorite teams, the
-        Wizards and the Capitals, got destroyed in important playoff games. It was
+        Georgetown Piano Bar and watched two of Mark’s favorite teams (Wizards
+        and Capitals) get destroyed in important playoff games. It was
         a low moment, but Hillary’s company made it a little bit brighter, and
-        Mark realized if she still wanted to hang out with him after this, she
-        was the real deal. Georgetown is also home to great shopping, delicious eats,
+        Mark realized if she still wanted to hang out after this she
+        was special. Georgetown is also home to great shopping, delicious eats,
         and regular street festivals. </p>
       </div>
       <div className="grid-cell">
         <img className="activity-img" src={EscapeRoomImg}/>
         <h3>Escape Rooms</h3>
-        <p>Escape rooms are one of Hillary and Mark’s favorite things. An activity
-        which involves being trapped in a and having 1 hour to escape, with themes
+        <p>Hillary and Mark love escape rooms. An activity
+        which involves being trapped in a room with 1 hour to escape, with themes
         like “serial killer” and “find the bomb”, this romantic setting was the
         perfect place for Mark to propose. After escaping with 22 minutes to spare,
-        the couple entered a room Mark had decorated with flowers and pictures of
-        the two of them and got down on one knee. Experience an escape room for
+        the couple entered a space Mark had decorated with flowers and pictures and
+        got down on one knee. Experience an escape room for
         yourself at Escape Quest in Georgetown, Alexandria or Takoma Park.</p>
       </div>
       <div className="grid-cell">
@@ -89,11 +89,11 @@ const Activities = () => (
       </div>
       <div className="grid-cell">
         <h3>Good Stuff Eatery</h3>
-        <p>Mark's favorite burger joint in DC, with fresh ingredients and delicious sauces.</p>
+        <p>Mark’s favorite burger joint in DC, with fresh ingredients and delicious sauces.</p>
       </div>
       <div className="grid-cell">
         <h3>Board Room</h3>
-        <p>Spend an afternoon playing one of their dozens of board games that you can rent for just $1.</p>
+        <p>Spend an afternoon at this bar playing one of their dozens of board games that you can rent for just $1.</p>
       </div>
       <div className="grid-cell">
         <h3>Ambar</h3>
@@ -104,8 +104,8 @@ const Activities = () => (
         <p>Tucked back on a side street in Georgetown, this little restaurant serves amazing Mediterranian food.</p>
       </div>
       <div className="grid-cell">
-        <h3>Tony & Joe's</h3>
-        <p>Tony & Joe's serves some of the freshest seafood in all of DC. Try the local blue crab, a staple of the area!</p>
+        <h3>Tony & Joe’s</h3>
+        <p>Tony & Joe’s serves some of the freshest seafood in all of DC. Try the local blue crab, a staple of the area!</p>
       </div>
     </div>
 
