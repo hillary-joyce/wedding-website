@@ -3,7 +3,7 @@ import { IconContext } from "react-icons"
 
 
 const Icon = props => (
-  <IconContext.Provider value={{size: props.size, color: "#001D4A"}}>
+  <IconContext.Provider value={{size: props.size, color: "#071013"}}>
     <div>
       {props.children}
     </div>

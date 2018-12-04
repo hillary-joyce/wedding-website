@@ -1,7 +1,7 @@
 ///////Sidebar Menu ////////
 .sidebar {
   height: 100%;
-  background: $dark-cerulean;
+  background: $cerulean-blue;
   position: fixed;
   box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.7);
   top: 0;
@@ -33,11 +33,13 @@
 .sidebar a {
   color: $harvest-gold;
   text-decoration: none;
-  font-size: 2.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .15rem;
 }
 
 .sidebar a:hover, .sidebar a:active {
-  color: $isabelline;
+  color: $white-smoke;
 }
 
 .sidebar-close-btn {
@@ -48,7 +50,7 @@
   padding-right: 10px;
 }
 .sidebar-close-btn:hover {
-  color: $isabelline;
+  color: $white-smoke;
   cursor: pointer;
 }
 

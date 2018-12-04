@@ -1,18 +1,27 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "37029d147a2ad4ed802b40801eeaae6d",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -24,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -41,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b39921b068b6d588d23ba88f60f13e1b",
+        "contentDigest": "0a3b63cd244c07031eb0a06e7a854d05",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -59,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -76,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "417ebfff8c618481be397ecc09b58c1e",
+        "contentDigest": "8a2a0236bd8f915e456ffb3de97811cd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -95,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -112,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3d75f1d9d20bf3680d07d5479dc4d37e",
+        "contentDigest": "8e41096cf58378592fdb42bb97fdcd5b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -130,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -147,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c853983c806d4c82ba61308681ab1b9e",
+        "contentDigest": "06ae9768c0fa1768ea540907a2403c7e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -165,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -182,13 +191,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bed80d05c9559959ef36160c3523a579",
+        "contentDigest": "55492e56ea899e8b4e7596af32a0f495",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7492a8b3-4f09-510f-86eb-45692655067b": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-sass",
       "id": "7492a8b3-4f09-510f-86eb-45692655067b",
       "name": "gatsby-plugin-sass",
       "version": "2.0.3",
@@ -206,7 +215,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -267,13 +276,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "97f76f535de75af2e793a01e8faa9c86",
+        "contentDigest": "4eb6e6656798d1b7c177c82eda94457f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f1178f2b-d984-51c8-ae39-5e011ae04f2f": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-web-font-loader",
       "id": "f1178f2b-d984-51c8-ae39-5e011ae04f2f",
       "name": "gatsby-plugin-web-font-loader",
       "version": "1.0.4",
@@ -291,7 +300,7 @@
         "onInitialClientRender"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-web-font-loader",
       "packageJson": {
         "name": "gatsby-plugin-web-font-loader",
         "description": "A Gatsby plugin to asynchronously load webfonts using [Web Font Loader](https://github.com/typekit/webfontloader). Can load fonts from [Google Fonts](http://www.google.com/fonts/), [Typekit](http://www.typekit.com/),  [Fonts.com](http://www.fonts.com/), and [Fontdeck](http://fontdeck.com/), as well as self-hosted web fonts.",
@@ -343,13 +352,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2a6001a18383ec5b39f1a71fab2a7ca5",
+        "contentDigest": "4ec3e466beb302a81f8cf0fb83fac465",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website",
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "6ace0b98bc7e2e8ac185829437374f17",
@@ -359,7 +368,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website",
       "packageJson": {
         "name": "gatsby-starter-hello-world",
         "description": "Gatsby hello world starter",
@@ -426,19 +435,35 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "44672bfdf925805f449cb58985c2ef80",
+        "contentDigest": "dce408ef7075b673e02a2685b9673710",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "3f5462e0-165e-5b6f-8277-82ba9bf3f435": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-page-creator",
-      "id": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-12-04T15:56:07.793Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cb2810743dadc239cfee37f5f4386809",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "370c0500-ff6c-5308-ae96-9a4618e6c538": {
+      "resolve": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-page-creator",
+      "id": "370c0500-ff6c-5308-ae96-9a4618e6c538",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.2",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages",
+        "path": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -446,7 +471,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -525,22 +550,8 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3f72ceb679253c8e9d1783c2aa7afa2c",
+        "contentDigest": "9d82f3518bda1945485c38f23d19f84d",
         "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Site": {
-      "siteMetadata": {},
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-11-25T14:40:41.109Z",
-      "id": "Site",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "b5e7b3834c8aa290c4aca1ead323336e",
-        "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
@@ -548,19 +559,19 @@
       "jsonName": "activities-60f",
       "internalComponentName": "ComponentActivities",
       "path": "/activities/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/activities.js",
       "componentChunkName": "component---src-pages-activities-js",
       "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js",
+      "pluginCreator___NODE": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "pluginCreatorId": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/activities.js",
       "id": "SitePage /activities/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "746109c844254f0c23fc258b60fd493e",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "contentDigest": "79ca8709319cc93e8b84c7f50032ef45",
+        "description": "370c0500-ff6c-5308-ae96-9a4618e6c538",
         "owner": "internal-data-bridge"
       }
     },
@@ -568,19 +579,19 @@
       "jsonName": "faq-19a",
       "internalComponentName": "ComponentFaq",
       "path": "/faq/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/faq.js",
       "componentChunkName": "component---src-pages-faq-js",
       "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js",
+      "pluginCreator___NODE": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "pluginCreatorId": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/faq.js",
       "id": "SitePage /faq/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aec700b349965595792ccbf26979349b",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "contentDigest": "73e8d0f2c254a909af1d78750f0314f3",
+        "description": "370c0500-ff6c-5308-ae96-9a4618e6c538",
         "owner": "internal-data-bridge"
       }
     },
@@ -588,19 +599,19 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js",
+      "pluginCreator___NODE": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "pluginCreatorId": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d89683649511f25537b95d7d2f56100a",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "contentDigest": "6e58411cbc7341476119a23777577cff",
+        "description": "370c0500-ff6c-5308-ae96-9a4618e6c538",
         "owner": "internal-data-bridge"
       }
     },
@@ -608,19 +619,19 @@
       "jsonName": "registry-952",
       "internalComponentName": "ComponentRegistry",
       "path": "/registry/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/registry.js",
       "componentChunkName": "component---src-pages-registry-js",
       "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js",
+      "pluginCreator___NODE": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "pluginCreatorId": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/registry.js",
       "id": "SitePage /registry/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "54070ab6217a9ddde203878d1d427ec8",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "contentDigest": "68bf73eebf6aa5029ea1d322f78bb115",
+        "description": "370c0500-ff6c-5308-ae96-9a4618e6c538",
         "owner": "internal-data-bridge"
       }
     },
@@ -628,19 +639,19 @@
       "jsonName": "rsvp-9a0",
       "internalComponentName": "ComponentRsvp",
       "path": "/rsvp/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/rsvp.js",
       "componentChunkName": "component---src-pages-rsvp-js",
       "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js",
+      "pluginCreator___NODE": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "pluginCreatorId": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/rsvp.js",
       "id": "SitePage /rsvp/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "94d0792a853d0854454d7702bc86020a",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "contentDigest": "10fde925dfd565f915a33058cf7c8b89",
+        "description": "370c0500-ff6c-5308-ae96-9a4618e6c538",
         "owner": "internal-data-bridge"
       }
     },
@@ -648,19 +659,19 @@
       "jsonName": "travel-554",
       "internalComponentName": "ComponentTravel",
       "path": "/travel/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js",
+      "component": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/travel.js",
       "componentChunkName": "component---src-pages-travel-js",
       "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js",
+      "pluginCreator___NODE": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "pluginCreatorId": "370c0500-ff6c-5308-ae96-9a4618e6c538",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/travel.js",
       "id": "SitePage /travel/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "60fee1731e3d714c515fb2b016bdea55",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "contentDigest": "0c48ffe1905e1d87be9f732fad6a7a26",
+        "description": "370c0500-ff6c-5308-ae96-9a4618e6c538",
         "owner": "internal-data-bridge"
       }
     }
@@ -683,29 +694,33 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js": {
+    "/Users/hillary.scofield/Documents/practice/wedding-website/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js"
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/.cache/dev-404-page.js"
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js": {
+    "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/activities.js": {
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js"
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/activities.js"
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js": {
+    "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/faq.js": {
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js"
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/faq.js"
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js": {
+    "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/index.js": {
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js"
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/index.js"
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js": {
+    "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/registry.js": {
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js"
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/registry.js"
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js": {
+    "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/rsvp.js": {
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js"
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/rsvp.js"
+    },
+    "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/travel.js": {
+      "query": "",
+      "componentPath": "/Users/hillary.scofield/Documents/practice/wedding-website/src/pages/travel.js"
     }
   },
   "staticQueryComponents": {}

@@ -24,10 +24,10 @@ const IndexPage = () => (
     <div style={{paddingBottom: "100px"}} className="container">
       <div className="two info-grid">
         <div className="grid-cell">
-          <Icon size="4rem">
+          <Icon size="4.5rem">
             <FiClock />
           </Icon>
-          <h1>When</h1>
+          <h1 className="grid-cell-title">When</h1>
           <div>Saturday</div>
           <div>September 28 2019</div>
           <div>4:00 PM</div>
@@ -36,10 +36,10 @@ const IndexPage = () => (
         </div>
 
         <div className="grid-cell">
-          <Icon size="4rem">
+          <Icon size="4.5rem">
             <FiMapPin />
           </Icon>
-          <h1>Where</h1>
+          <h1 className="grid-cell-title">Where</h1>
           <div>St. Francis Hall</div>
           <div>1340 Quincy St NE</div>
           <div>Washington, DC 20017</div>

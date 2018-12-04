@@ -14,9 +14,9 @@ import ArlingtonImg from "../../public/places-images/arlington.jpg"
 
 const Activities = () => (
   <Layout>
-  <Header id="activities-pg" imgSrc={TravelStarMap} title="Welcome to DC"/>
+  <Header id="activities-pg" title="Welcome to DC"/>
   <div style={{height: "100vh"}} className="container">
-    <div className="grid-title"><h1>Things to Do</h1></div>
+    <div className="grid-title"><h1 className="grid-cell-title">Things to Do</h1></div>
     <div className="two info-grid">
       <div className="grid-cell">
         <img className="activity-img" src={NationalMallImg}/>

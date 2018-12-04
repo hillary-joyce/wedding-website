@@ -10,7 +10,7 @@ const menu = props => (
   <header className="menu">
     <div className="menu-navigation">
       <div className="sidebar-toggle-btn-div" onClick={props.toggleMenu}><SidebarToggleButton /></div>
-      <div className="constellation-icon"><img src={Logo}/></div>
+
       <div className="spacer"/>
       <div className="menu-navigation-items">
         <ul>
