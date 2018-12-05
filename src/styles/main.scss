@@ -114,16 +114,28 @@ p {
 .grid-cell-title.sub-title{
   font-size: 24px;
 }
+
+.grid-cell {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
 @media (max-width: 768px) {
   .info-grid {
     grid-template-columns: 1fr;
   }
+  .grid-cell-title{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+  }
+  .grid-cell-title.sub-title{
+    font-size: 20px;
+  }
 }
 
-.grid-cell {
-  font-size: 20px;
-  line-height: 26px;
-}
+
 
 
 ///////////// Travel Page ///////////
@@ -134,8 +146,8 @@ p {
   background-size: 50%;
   display: flex;
   align-items: center;
-  margin-bottom: 190px;
-  padding-top: 140px;
+  margin-bottom: 250px;
+  padding-top: 80px;
 }
 
 #travel-pg .header-title, #activities-pg .header-title {
@@ -162,14 +174,21 @@ p {
 @media (max-width: 715px) {
   #travel-pg, #activities-pg {
     background-size: 175%;
-    height: 200px;
+    margin-bottom: 40px;
+    height: 100px;
   }
   #travel-pg .header-title {
     font-size: 100px;
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 550px) {
+  #travel-pg, #activities-pg{
+    height: 200px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+  }
   #activities-pg .header-title{
     font-size: 60px;
     margin-top: 40px;
@@ -180,8 +199,9 @@ p {
 //////////// Activities Page /////////////
 
 .activity-img {
-  width: 150px;
+  width: 125px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 

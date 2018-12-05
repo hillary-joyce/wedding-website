@@ -1,4 +1,4 @@
 module.exports = [{
-      plugin: require('/Users/hillary.scofield/Documents/practice/wedding-website/node_modules/gatsby-plugin-web-font-loader/gatsby-browser'),
+      plugin: require('/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader/gatsby-browser'),
       options: {"plugins":[],"google":{"families":["Abril Fatface","Raleway:300,700"]}},
     }]

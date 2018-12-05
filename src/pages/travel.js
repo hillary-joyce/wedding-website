@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Icon from "../components/icon"
 import Header from "../components/header"
 import '../styles/main.scss'
-import TravelStarMap from "../../public/travel_star_map.png"
 
 import { IoMdAirplane } from "react-icons/io"
 import { IoMdTrain } from "react-icons/io"
