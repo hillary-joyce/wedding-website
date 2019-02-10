@@ -139,7 +139,10 @@ p {
 
 
 ///////////// Travel Page ///////////
-#travel-pg, #activities-pg, #registry-pg{
+#travel-pg,
+#activities-pg,
+#registry-pg,
+#faq-pg{
   height: 100px;
   background-position: top;
   background-repeat: repeat-x;
@@ -150,7 +153,10 @@ p {
   padding-top: 80px;
 }
 
-#travel-pg .header-title, #activities-pg .header-title, #registry-pg .header-title {
+#travel-pg .header-title,
+#activities-pg .header-title,
+#registry-pg .header-title,
+#faq-pg .header-title {
   font-size: 125px;
   color: $rich-black;
   text-shadow: none;
@@ -218,6 +224,11 @@ p {
   margin-bottom: 20px;
 }
 
+
+/////// FAQ ///////////////
+.faq-grid {
+  grid-gap: 10px;
+}
 
 //////// Buttons ////////////
 .button {

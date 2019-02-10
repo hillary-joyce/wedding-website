@@ -1,11 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SidebarToggleButton from "./sidebarToggleButton"
-import Logo from "../../public/libra-logo.png"
 
-const showMenu = (event) => {
-  console.log("hello world");
-}
 const menu = props => (
   <header className="menu">
     <div className="menu-navigation">
@@ -18,6 +14,7 @@ const menu = props => (
           <li className="menu-item"><Link to="/travel">Travel</Link></li>
           <li className="menu-item"><Link to="/activities">Activities</Link></li>
           <li className="menu-item"><Link to="/registry">Registry</Link></li>
+          <li className="menu-item"><Link to="/faq">FAQ</Link></li>
         </ul>
       </div>
     </div>

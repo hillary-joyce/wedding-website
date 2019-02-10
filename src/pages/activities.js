@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import Icon from "../components/icon"
 import Header from "../components/header"
 import '../styles/main.scss'
 
@@ -18,7 +17,7 @@ const Activities = () => (
     <div className="grid-title"><h1 className="grid-cell-title">Things to Do</h1></div>
     <div className="two info-grid">
       <div className="grid-cell">
-        <img className="activity-img" src={NationalMallImg}/>
+        <img className="activity-img" src={NationalMallImg} alt="national mall"/>
         <h3 className="grid-cell-title sub-title">The National Mall</h3>
         <p>In the shadow of the Washington Monument is a place that truly
         captures the spirit of America - for on those grass fields is the spot
@@ -28,7 +27,7 @@ const Activities = () => (
         history.</p>
       </div>
       <div className="grid-cell">
-        <img className="activity-img" src={SmithsonianImg}/>
+        <img className="activity-img" src={SmithsonianImg} alt="smithsonian museum"/>
         <h3 className="grid-cell-title sub-title">Smithsonian Museums</h3>
         <p>The Smithsonian Air & Space Museum boasts the honor of being the
         location of one of Hillary and Mark’s first dates. It is also the most
@@ -38,7 +37,7 @@ const Activities = () => (
         American craft to Natural History.</p>
       </div>
       <div className="grid-cell">
-        <img className="activity-img" src={GeorgetownImg}/>
+        <img className="activity-img" src={GeorgetownImg} alt="georgetown"/>
         <h3 className="grid-cell-title sub-title">Georgetown</h3>
         <p>Early into dating, Mark took Hillary to Georgetown to see his
         wonderfully talented sister Lena sing. Afterwards they went to the
@@ -50,7 +49,7 @@ const Activities = () => (
         and regular street festivals. </p>
       </div>
       <div className="grid-cell">
-        <img className="activity-img" src={EscapeRoomImg}/>
+        <img className="activity-img" src={EscapeRoomImg} alt="escape rooms"/>
         <h3 className="grid-cell-title sub-title">Escape Rooms</h3>
         <p>Hillary and Mark love escape rooms. An activity
         which involves being trapped in a room with 1 hour to escape, with themes
@@ -61,7 +60,7 @@ const Activities = () => (
         yourself at Escape Quest in Georgetown, Alexandria or Takoma Park.</p>
       </div>
       <div className="grid-cell">
-        <img className="activity-img" src={GreatFallsImg}/>
+        <img className="activity-img" src={GreatFallsImg} alt="great falls park"/>
         <h3 className="grid-cell-title sub-title">Virginia Parks</h3>
         <p>Hiking in Northern Virginia is one of Mark & Hillary’s favorite things.
         On any warm Saturday, you can find the two of them and their dog, Lando,
@@ -69,7 +68,7 @@ const Activities = () => (
         and explore the Virginia wilderness the two of them love so much.</p>
       </div>
       <div className="grid-cell">
-        <img className="activity-img" src={ArlingtonImg}/>
+        <img className="activity-img" src={ArlingtonImg} alt="arlington"/>
         <h3 className="grid-cell-title sub-title">Arlington</h3>
         <p>Step outside DC and get a closer look at the city Mark and Hillary call
         home. With its many neighborhoods, there’s plenty to do and see. Visit

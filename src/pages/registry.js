@@ -1,10 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Icon from "../components/icon"
-import PageTitle from "../components/pageTitle"
 import Header from "../components/header"
 import '../styles/main.scss'
-import { FiGift } from "react-icons/fi"
 
 import zolaLogo from '../../public/registry/zola-logo.png'
 const Registry = () => (
@@ -16,7 +13,7 @@ const Registry = () => (
       </div>
       <div className="one info-grid">
         <div className="grid-cell">
-          <a href="https://www.zola.com/registry/hillaryandmark"><img src={zolaLogo} alt="Zola Logo"/></a>
+          <a href="https://www.zola.com/registry/hillaryandmark" target="_blank" rel="noopener noreferrer"><img src={zolaLogo} alt="Zola Logo"/></a>
         </div>
       </div>
     </div>

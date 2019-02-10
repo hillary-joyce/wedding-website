@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Icon from "../components/icon"
-import Button from "../components/button"
 import { FiClock } from "react-icons/fi"
 import { FiMapPin } from "react-icons/fi"
 import AddToCalendar from 'react-add-to-calendar';
@@ -44,7 +43,7 @@ const IndexPage = () => (
           <div>1340 Quincy St NE</div>
           <div>Washington, DC 20017</div>
           <br/>
-          <a className="button" target="_blank" href="https://www.google.com/maps/place/St+Francis+Hall/@38.9375908,-76.9887057,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c794b96249fd:0x1bfb320ff4f61bc3!8m2!3d38.9375908!4d-76.986517">View Map</a>
+          <a className="button" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/St+Francis+Hall/@38.9375908,-76.9887057,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c794b96249fd:0x1bfb320ff4f61bc3!8m2!3d38.9375908!4d-76.986517">View Map</a>
         </div>
       </div>
 
