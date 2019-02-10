@@ -74,12 +74,19 @@ const Travel = () => (
         <Icon size="5rem">
           <IoIosBed />
         </Icon>
-        <h1 className="grid-cell-title">Hotels</h1>
+        <h1 className="grid-cell-title">Hotel</h1>
       </div>
 
       <div className="info-grid">
         <div className="grid-cell">
-          <h3>More info on hotel blocks will be posted soon</h3>
+          <h3 className="grid-cell-title sub-title">Kimpton Palomar</h3>
+          <p> We have reserved a room block at the <a target="_blank" href="https://www.ihg.com/kimptonhotels/hotels/us/en/find-hotels/hotel/rooms?qDest=2121%20P%20St%20NW,%20Washington,%20DC,%20US&qCiMy=82019&qCiD=27&qCoMy=82019&qCoD=29&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=TL9&qSlH=WDCPA&qAkamaiCC=US&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&icdv=99801505">
+          Kimpton Palomar Hotel</a> in Washington, DC</p>
+          <h3 className="grid-cell-title sub-title">Reservations</h3>
+          <p> To reserve a room, you can call the Palomar at 877-866-3070 and make the reservation under <b>Scofield Seikaly Wedding Room Block</b></p>
+          <a target="_blank" href="https://www.ihg.com/kimptonhotels/hotels/us/en/find-hotels/hotel/rooms?qDest=2121%20P%20St%20NW,%20Washington,%20DC,%20US&qCiMy=82019&qCiD=27&qCoMy=82019&qCoD=29&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=TL9&qSlH=WDCPA&qAkamaiCC=US&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&icdv=99801505">
+          Book your room online
+          </a>
         </div>
       </div>
     </div>

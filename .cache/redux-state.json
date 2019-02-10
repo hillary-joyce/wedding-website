@@ -545,12 +545,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-10T11:50:29.661Z",
+      "buildTime": "2019-02-10T12:26:19.299Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1bc2b62cae2ba3a4bfd8e826b674e46b",
+        "contentDigest": "2262600a18a77956685ae07edcd05c03",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
