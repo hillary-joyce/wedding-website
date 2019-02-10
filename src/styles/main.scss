@@ -16,7 +16,7 @@ html {
 body {
   background: $white-smoke;
   font-family: $poppins;
-  font-size: 20px;
+  font-size: 18px;
   color: $rich-black;
   top: 0;
   left: 0;
@@ -83,12 +83,12 @@ p {
 ////// GRID //////
 .grid-title {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .info-grid {
   margin-top: 10vh;
-  margin-bottom: 30vh;
+  margin-bottom: 20vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 80px;
@@ -105,18 +105,18 @@ p {
 }
 
 .grid-cell-title{
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: .15rem;
   margin: 10px auto;
 }
 
 .grid-cell-title.sub-title{
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .grid-cell {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   letter-spacing: 1px;
 }
@@ -126,12 +126,12 @@ p {
     grid-template-columns: 1fr;
   }
   .grid-cell-title{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: .2rem;
   }
   .grid-cell-title.sub-title{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -139,22 +139,22 @@ p {
 
 
 ///////////// Travel Page ///////////
-#travel-pg, #activities-pg{
+#travel-pg, #activities-pg, #registry-pg{
   height: 100px;
   background-position: top;
   background-repeat: repeat-x;
   background-size: 50%;
   display: flex;
   align-items: center;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
   padding-top: 80px;
 }
 
-#travel-pg .header-title, #activities-pg .header-title {
+#travel-pg .header-title, #activities-pg .header-title, #registry-pg .header-title {
   font-size: 125px;
   color: $rich-black;
   text-shadow: none;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
 }
 
 #activities-pg .header-title {
@@ -208,6 +208,14 @@ p {
 ////// Registry Page //////////
 #registry-page-title {
   font-size: 125px;
+}
+
+#registry-pg {
+  margin-bottom: 200px;
+}
+
+.grid-title svg {
+  margin-bottom: 20px;
 }
 
 

@@ -17,6 +17,7 @@ const menu = props => (
           <li className="menu-item"><Link to="/">Home</Link></li>
           <li className="menu-item"><Link to="/travel">Travel</Link></li>
           <li className="menu-item"><Link to="/activities">Activities</Link></li>
+          <li className="menu-item"><Link to="/registry">Registry</Link></li>
         </ul>
       </div>
     </div>

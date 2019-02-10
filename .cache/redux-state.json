@@ -281,9 +281,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "f1178f2b-d984-51c8-ae39-5e011ae04f2f": {
+    "4c9fa406-74c4-54f3-847f-641aef0b0eb3": {
       "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader",
-      "id": "f1178f2b-d984-51c8-ae39-5e011ae04f2f",
+      "id": "4c9fa406-74c4-54f3-847f-641aef0b0eb3",
       "name": "gatsby-plugin-web-font-loader",
       "version": "1.0.4",
       "pluginOptions": {
@@ -291,7 +291,7 @@
         "google": {
           "families": [
             "Abril Fatface",
-            "Raleway:300,700"
+            "Raleway:300,500,700"
           ]
         }
       },
@@ -352,7 +352,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2a6001a18383ec5b39f1a71fab2a7ca5",
+        "contentDigest": "0595199a63079e22ea32ea9ce64a8592",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -361,7 +361,7 @@
       "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "6ace0b98bc7e2e8ac185829437374f17",
+      "version": "c319aabf4e9552a53039d9f0277e662a",
       "pluginOptions": {
         "plugins": []
       },
@@ -435,24 +435,8 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "44672bfdf925805f449cb58985c2ef80",
+        "contentDigest": "679f07511563ac572a4463cd9366f9a3",
         "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Site": {
-      "siteMetadata": {},
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-12-05T11:15:19.858Z",
-      "id": "Site",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "d5e070cc4dd6b7d87427542e92034ca9",
-        "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
@@ -552,6 +536,22 @@
       "internal": {
         "contentDigest": "3f72ceb679253c8e9d1783c2aa7afa2c",
         "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-10T11:50:29.661Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1bc2b62cae2ba3a4bfd8e826b674e46b",
+        "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
@@ -678,7 +678,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "92d774de7afa6d15439bbd93e4d10e86"
+    "PLUGINS_HASH": "7f619013d0289ce4a2454175e6d09a90"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -694,10 +694,6 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/.cache/dev-404-page.js"
-    },
     "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js": {
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js"
@@ -721,6 +717,10 @@
     "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js": {
       "query": "",
       "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js"
+    },
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
