@@ -18,7 +18,7 @@ var _utils = require("@reach/router/lib/utils");
 
 var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");
 
-var _domready = _interopRequireDefault(require("domready"));
+var _domready = _interopRequireDefault(require("@mikaelkristiansson/domready"));
 
 var _navigation = require("./navigation");
 
@@ -30,11 +30,8 @@ var _asyncRequires = _interopRequireDefault(require("./async-requires"));
 
 var _loader = _interopRequireWildcard(require("./loader"));
 
-var _loadDirectlyOr = _interopRequireDefault(require("./load-directly-or-404"));
-
 var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
 
-window.___emitter = _emitter.default;
 window.asyncRequires = _asyncRequires.default;
 window.___emitter = _emitter.default;
 window.___loader = _loader.default;
@@ -94,13 +91,7 @@ _loader.default.addProdRequires(_asyncRequires.default);
     });
   }
 
-  _loader.default.getResourcesForPathname(browserLoc.pathname).then(resources => {
-    if (!resources || resources.page.path === `/404.html`) {
-      return (0, _loadDirectlyOr.default)(resources, browserLoc.pathname + browserLoc.search + browserLoc.hash, true);
-    }
-
-    return null;
-  }).then(() => {
+  _loader.default.getResourcesForPathname(browserLoc.pathname).then(() => {
     const Root = () => (0, _react.createElement)(_router.Router, {
       basepath: __PATH_PREFIX__
     }, (0, _react.createElement)(RouteHandler, {
@@ -122,6 +113,7 @@ _loader.default.addProdRequires(_asyncRequires.default);
     const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, _reactDom.default.hydrate)[0];
     (0, _domready.default)(() => {
       renderer(_react.default.createElement(NewRoot, null), typeof window !== `undefined` ? document.getElementById(`___gatsby`) : void 0, () => {
+        (0, _loader.postInitialRenderWork)();
         (0, _apiRunnerBrowser.apiRunner)(`onInitialClientRender`);
       });
     });

@@ -1,40 +1,37 @@
+/**
+ * Layout component that queries for data
+ * with Gatsby's StaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/static-query/
+ */
+
 import React from "react"
-import Menu from "../components/menu"
-import Sidebar from "../components/sidebar"
-import Backdrop from "../components/backdrop"
+import PropTypes from "prop-types"
+import { Image } from "../components/image";
 
+import Navbar from './Navbar';
+import "./layout.css"
 
-class Layout extends React.Component {
-  state = {
-    sidebarOpen: false
-  }
+const IMAGES = {
+  navbar: 'navbarBackground',
+  footer: 'footerBackground',
+}
 
-  sidebarToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {sidebarOpen: !prevState.sidebarOpen}
-    })
-  }
+const Layout = ({ title, children }) => (
+  <>
+    <Navbar />
+    <div className = 'navbar-bg'>
+     <Image image={IMAGES.navbar}/>
+    </div>
+    <main>{children}</main>
+    <div className='footer-bg'>
+    <Image image={IMAGES.footer}/>
+  </div>
+  </>
+)
 
-  backdropClickHandler = () => {
-    this.setState({sidebarOpen: false})
-  }
-
-  render(){
-    let backdrop;
-
-    if (this.state.sidebarOpen) {
-      backdrop = <Backdrop hideSidebar={this.backdropClickHandler}/>
-    }
-
-    return (
-      <div style={{height: "100%"}}>
-        <Menu toggleMenu={this.sidebarToggleClickHandler} />
-        <Sidebar show={this.state.sidebarOpen} hideSidebar={this.backdropClickHandler}/>
-        {backdrop}
-        {this.props.children}
-      </div>
-    )
-  }
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

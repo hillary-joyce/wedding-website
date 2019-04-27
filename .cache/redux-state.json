@@ -3,7 +3,7 @@
     "SitePage /dev-404-page/": {
       "path": "/dev-404-page/",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -38,7 +38,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "b39921b068b6d588d23ba88f60f13e1b",
@@ -73,7 +73,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "417ebfff8c618481be397ecc09b58c1e",
@@ -109,7 +109,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "3d75f1d9d20bf3680d07d5479dc4d37e",
@@ -144,7 +144,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "c853983c806d4c82ba61308681ab1b9e",
@@ -152,26 +152,26 @@
         "owner": "internal-data-bridge"
       }
     },
-    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
-      "name": "query-runner",
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage"
+        "onCreateWebpackConfig"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
-        "name": "query-runner",
-        "description": "Internal plugin for running queries",
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
         "version": "1.0.0",
         "main": "index.js",
-        "author": "",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
         "license": "MIT",
         "dependencies": [],
         "devDependencies": [],
@@ -179,58 +179,55 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "bed80d05c9559959ef36160c3523a579",
+        "contentDigest": "3fdbd25e72ed300ac19edb2c0b96c413",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "7492a8b3-4f09-510f-86eb-45692655067b": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-sass",
-      "id": "7492a8b3-4f09-510f-86eb-45692655067b",
-      "name": "gatsby-plugin-sass",
-      "version": "2.0.3",
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.12",
       "pluginOptions": {
-        "plugins": [],
-        "includePaths": [
-          "src/styles/main.scss"
-        ],
-        "cssLoaderOptions": {
-          "camelCase": false
-        }
+        "plugins": []
       },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
+      "nodeAPIs": [],
       "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-sass",
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
-        "name": "gatsby-plugin-sass",
-        "description": "Gatsby plugin to handle scss/sass files",
-        "version": "2.0.3",
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.12",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
-          "sass",
-          "scss"
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
         ],
-        "author": {
-          "name": "Daniel Farrell",
-          "email": "daniel@mobelux.com"
-        },
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
             "name": "@babel/runtime",
             "version": "^7.0.0"
-          },
-          {
-            "name": "sass-loader",
-            "version": "^7.0.1"
           }
         ],
         "devDependencies": [
@@ -244,7 +241,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.4"
           },
           {
             "name": "cross-env",
@@ -254,96 +251,443 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           },
           {
-            "name": "node-sass",
-            "version": "^4.9.0"
+            "name": "react-helmet",
+            "version": "^5.1.3"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "97f76f535de75af2e793a01e8faa9c86",
+        "contentDigest": "5bea897818a751cb0c5499a4e1e72578",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "4c9fa406-74c4-54f3-847f-641aef0b0eb3": {
-      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader",
-      "id": "4c9fa406-74c4-54f3-847f-641aef0b0eb3",
-      "name": "gatsby-plugin-web-font-loader",
-      "version": "1.0.4",
+    "8435acee-54c1-59fe-9443-e54df6847a62": {
+      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-source-filesystem",
+      "id": "8435acee-54c1-59fe-9443-e54df6847a62",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.29",
       "pluginOptions": {
         "plugins": [],
-        "google": {
-          "families": [
-            "Abril Fatface",
-            "Raleway:300,500,700"
-          ]
-        }
+        "name": "images",
+        "path": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images"
       },
-      "nodeAPIs": [],
-      "browserAPIs": [
-        "onInitialClientRender"
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
       ],
+      "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-web-font-loader",
+      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-source-filesystem",
       "packageJson": {
-        "name": "gatsby-plugin-web-font-loader",
-        "description": "A Gatsby plugin to asynchronously load webfonts using [Web Font Loader](https://github.com/typekit/webfontloader). Can load fonts from [Google Fonts](http://www.google.com/fonts/), [Typekit](http://www.typekit.com/),  [Fonts.com](http://www.fonts.com/), and [Fontdeck](http://fontdeck.com/), as well as self-hosted web fonts.",
-        "version": "1.0.4",
-        "main": "gatsby-browser.js",
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.29",
         "keywords": [
-          "gatsby-plugin",
           "gatsby",
-          "plugin",
-          "web",
-          "font",
-          "loader",
-          "google",
-          "typekit",
-          "webfont",
-          "webfontloader",
-          "fonts.com",
-          "fontdeck"
+          "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kennedy Rose",
-          "email": "krose@escaladesports.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
-            "name": "webfontloader",
-            "version": "^1.6.28"
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "esca-scripts",
-            "version": "^1.4.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
           },
           {
-            "name": "opn-cli",
-            "version": "^3.1.0"
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "0595199a63079e22ea32ea9ce64a8592",
+        "contentDigest": "9e7c7522079cc71fd946aa673ee35b43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "08ae396b998a06b96aa14307f4138ce8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "65feb6f64eb056f9d4567dd5a826848e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.28",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.22.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c41371d0dfffe121e651924ac66db887",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -352,7 +696,7 @@
       "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "c319aabf4e9552a53039d9f0277e662a",
+      "version": "81e07dfd5e8068026f0f21a4050cd9e1",
       "pluginOptions": {
         "plugins": []
       },
@@ -361,72 +705,94 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website",
       "packageJson": {
-        "name": "gatsby-starter-hello-world",
-        "description": "Gatsby hello world starter",
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@emotion/core",
+            "version": "^10.0.10"
+          },
+          {
+            "name": "@emotion/styled",
+            "version": "^10.0.10"
+          },
+          {
             "name": "gatsby",
-            "version": "^2.0.33"
+            "version": "^2.3.16"
           },
           {
-            "name": "gatsby-plugin-sass",
-            "version": "^2.0.3"
+            "name": "gatsby-image",
+            "version": "^2.0.38"
           },
           {
-            "name": "gatsby-plugin-typography",
-            "version": "^2.2.1"
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.28"
           },
           {
-            "name": "gatsby-plugin-web-font-loader",
-            "version": "^1.0.4"
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
           },
           {
-            "name": "node-sass",
-            "version": "^4.10.0"
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.12"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.34"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.18"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
           },
           {
             "name": "react",
-            "version": "^16.5.1"
+            "version": "^16.8.6"
           },
           {
             "name": "react-add-to-calendar",
             "version": "^0.1.5"
           },
           {
-            "name": "react-burger-menu",
-            "version": "^2.5.4"
+            "name": "react-dom",
+            "version": "^16.8.6"
           },
           {
-            "name": "react-dom",
-            "version": "^16.5.1"
+            "name": "react-helmet",
+            "version": "^5.2.0"
           },
           {
             "name": "react-icons",
-            "version": "^3.2.2"
-          },
-          {
-            "name": "react-typography",
-            "version": "^0.16.13"
-          },
-          {
-            "name": "typeface-poppins",
-            "version": "0.0.54"
-          },
-          {
-            "name": "typography",
-            "version": "^0.16.17"
+            "version": "^3.6.1"
           }
         ],
-        "devDependencies": [],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "679f07511563ac572a4463cd9366f9a3",
+        "contentDigest": "6cfc1de1928a8bfea650a017a9c8daa3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -435,7 +801,7 @@
       "resolve": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/node_modules/gatsby-plugin-page-creator",
       "id": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.2",
+      "version": "2.0.12",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages",
@@ -450,16 +816,13 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.2",
+        "version": "2.0.12",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -472,7 +835,7 @@
           },
           {
             "name": "chokidar",
-            "version": "^1.7.0"
+            "version": "2.1.2"
           },
           {
             "name": "fs-exists-cached",
@@ -485,6 +848,10 @@
           {
             "name": "lodash",
             "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
           },
           {
             "name": "parse-filepath",
@@ -506,7 +873,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.4"
           },
           {
             "name": "cross-env",
@@ -516,31 +883,784 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3f72ceb679253c8e9d1783c2aa7afa2c",
+        "contentDigest": "17b8368a979c8b57064f2ba9dc0adfe7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
-      "siteMetadata": {},
+      "siteMetadata": {
+        "title": "Hillary and Mark",
+        "description": "Welcome to Hillary and Mark's wedding website, where you can get all the information you need for their wedding.",
+        "author": "Hillary Scofield"
+      },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-10T21:57:12.827Z",
+      "buildTime": "2019-04-27T13:44:00.532Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "28a4dd5b8c0af991c269645296a7324c",
+        "contentDigest": "64dd6144520bb6ae902061035152d180",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "49b6bd89-d028-5349-8df1-74ce3c207923": {
+      "id": "49b6bd89-d028-5349-8df1-74ce3c207923",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "958c8a00e4f681cd9a629e40157397f7",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 480,
+      "prettySize": "480 B",
+      "modifiedTime": "2019-04-27T13:32:08.127Z",
+      "accessTime": "2019-04-27T13:44:10.462Z",
+      "changeTime": "2019-04-27T13:40:29.827Z",
+      "birthTime": "2019-04-12T12:31:03.167Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 15,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258064,
+      "blocks": 0,
+      "atimeMs": 1556372650461.6387,
+      "mtimeMs": 1556371928127.0852,
+      "ctimeMs": 1556372429827.1003,
+      "birthtimeMs": 1555072263166.5852,
+      "atime": "2019-04-27T13:44:10.462Z",
+      "mtime": "2019-04-27T13:32:08.127Z",
+      "ctime": "2019-04-27T13:40:29.827Z",
+      "birthtime": "2019-04-12T12:31:03.167Z"
+    },
+    "0e362b06-0ede-5240-9707-1ad5384937dc": {
+      "id": "0e362b06-0ede-5240-9707-1ad5384937dc",
+      "children": [
+        "cbb07316-6beb-5bd8-b1f5-c1640513c0e4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-04-12T12:31:03.168Z",
+      "accessTime": "2019-04-27T12:39:27.717Z",
+      "changeTime": "2019-04-27T13:40:29.825Z",
+      "birthTime": "2019-04-12T12:31:03.168Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258076,
+      "blocks": 48,
+      "atimeMs": 1556368767717.1768,
+      "mtimeMs": 1555072263168.2715,
+      "ctimeMs": 1556372429825.0454,
+      "birthtimeMs": 1555072263167.9492,
+      "atime": "2019-04-27T12:39:27.717Z",
+      "mtime": "2019-04-12T12:31:03.168Z",
+      "ctime": "2019-04-27T13:40:29.825Z",
+      "birthtime": "2019-04-12T12:31:03.168Z"
+    },
+    "cbb07316-6beb-5bd8-b1f5-c1640513c0e4": {
+      "id": "cbb07316-6beb-5bd8-b1f5-c1640513c0e4",
+      "children": [],
+      "parent": "0e362b06-0ede-5240-9707-1ad5384937dc",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5c2421d7-6ea6-5755-afee-733459af7059": {
+      "id": "5c2421d7-6ea6-5755-afee-733459af7059",
+      "children": [
+        "662fad75-58c0-575d-b161-7ec9a3833357"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ef7e318a55c40a2e1b8806c34642a34b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/zola-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/zola-logo.png",
+      "relativePath": "zola-logo.png",
+      "extension": "png",
+      "size": 19349,
+      "prettySize": "19.3 kB",
+      "modifiedTime": "2019-02-10T12:01:21.397Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.805Z",
+      "birthTime": "2019-02-10T12:01:21.397Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "zola-logo.png",
+      "ext": ".png",
+      "name": "zola-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258070,
+      "blocks": 40,
+      "atimeMs": 1556372429768.733,
+      "mtimeMs": 1549800081397.034,
+      "ctimeMs": 1556372429804.5376,
+      "birthtimeMs": 1549800081396.7473,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-02-10T12:01:21.397Z",
+      "ctime": "2019-04-27T13:40:29.805Z",
+      "birthtime": "2019-02-10T12:01:21.397Z"
+    },
+    "e2b98619-ad8a-5bf7-91ee-535aea2fe811": {
+      "id": "e2b98619-ad8a-5bf7-91ee-535aea2fe811",
+      "children": [
+        "1181332d-b675-54a6-bfb8-f1c22e5779d3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "330be5f5d91345686158920e2c887f1c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/escape_room.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/escape_room.png",
+      "relativePath": "escape_room.png",
+      "extension": "png",
+      "size": 111164,
+      "prettySize": "111 kB",
+      "modifiedTime": "2019-04-27T12:33:10.880Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.795Z",
+      "birthTime": "2019-04-27T12:33:10.848Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "escape_room.png",
+      "ext": ".png",
+      "name": "escape_room",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258068,
+      "blocks": 224,
+      "atimeMs": 1556372429768.6448,
+      "mtimeMs": 1556368390879.7954,
+      "ctimeMs": 1556372429795.326,
+      "birthtimeMs": 1556368390847.7034,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-04-27T12:33:10.880Z",
+      "ctime": "2019-04-27T13:40:29.795Z",
+      "birthtime": "2019-04-27T12:33:10.848Z"
+    },
+    "662fad75-58c0-575d-b161-7ec9a3833357": {
+      "id": "662fad75-58c0-575d-b161-7ec9a3833357",
+      "children": [],
+      "parent": "5c2421d7-6ea6-5755-afee-733459af7059",
+      "internal": {
+        "contentDigest": "ef7e318a55c40a2e1b8806c34642a34b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1181332d-b675-54a6-bfb8-f1c22e5779d3": {
+      "id": "1181332d-b675-54a6-bfb8-f1c22e5779d3",
+      "children": [],
+      "parent": "e2b98619-ad8a-5bf7-91ee-535aea2fe811",
+      "internal": {
+        "contentDigest": "330be5f5d91345686158920e2c887f1c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1fc15f2d-2e8e-5f1c-b731-6d868a055bb5": {
+      "id": "1fc15f2d-2e8e-5f1c-b731-6d868a055bb5",
+      "children": [
+        "51157ce0-8f6d-5b25-8287-a37998907f33"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "22654795b35be8d2cd65323ddd5c22f2",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/footer-bg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/footer-bg.png",
+      "relativePath": "footer-bg.png",
+      "extension": "png",
+      "size": 181158,
+      "prettySize": "181 kB",
+      "modifiedTime": "2019-04-25T22:11:54.054Z",
+      "accessTime": "2019-04-27T13:40:29.768Z",
+      "changeTime": "2019-04-27T13:40:29.776Z",
+      "birthTime": "2019-04-14T19:29:36.074Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "footer-bg.png",
+      "ext": ".png",
+      "name": "footer-bg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258065,
+      "blocks": 360,
+      "atimeMs": 1556372429768.4963,
+      "mtimeMs": 1556230314054.2397,
+      "ctimeMs": 1556372429776.165,
+      "birthtimeMs": 1555270176073.6565,
+      "atime": "2019-04-27T13:40:29.768Z",
+      "mtime": "2019-04-25T22:11:54.054Z",
+      "ctime": "2019-04-27T13:40:29.776Z",
+      "birthtime": "2019-04-14T19:29:36.074Z"
+    },
+    "51157ce0-8f6d-5b25-8287-a37998907f33": {
+      "id": "51157ce0-8f6d-5b25-8287-a37998907f33",
+      "children": [],
+      "parent": "1fc15f2d-2e8e-5f1c-b731-6d868a055bb5",
+      "internal": {
+        "contentDigest": "22654795b35be8d2cd65323ddd5c22f2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4921415c-3538-5a29-b479-57692c4ccf35": {
+      "id": "4921415c-3538-5a29-b479-57692c4ccf35",
+      "children": [
+        "7e2e83e2-8e0c-576c-9887-c10e8a2fe22e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3a01f81b871cd95c47ba28c021afc63e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/arlington.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/arlington.png",
+      "relativePath": "arlington.png",
+      "extension": "png",
+      "size": 242749,
+      "prettySize": "243 kB",
+      "modifiedTime": "2019-04-27T12:32:40.110Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.812Z",
+      "birthTime": "2019-04-27T12:32:40.086Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "arlington.png",
+      "ext": ".png",
+      "name": "arlington",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258073,
+      "blocks": 480,
+      "atimeMs": 1556372429769.234,
+      "mtimeMs": 1556368360110.0564,
+      "ctimeMs": 1556372429812.4568,
+      "birthtimeMs": 1556368360086.2095,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-04-27T12:32:40.110Z",
+      "ctime": "2019-04-27T13:40:29.812Z",
+      "birthtime": "2019-04-27T12:32:40.086Z"
+    },
+    "7e2e83e2-8e0c-576c-9887-c10e8a2fe22e": {
+      "id": "7e2e83e2-8e0c-576c-9887-c10e8a2fe22e",
+      "children": [],
+      "parent": "4921415c-3538-5a29-b479-57692c4ccf35",
+      "internal": {
+        "contentDigest": "3a01f81b871cd95c47ba28c021afc63e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0d895301-6343-502b-8b35-d333c27002b3": {
+      "id": "0d895301-6343-502b-8b35-d333c27002b3",
+      "children": [
+        "38cca768-1818-5274-a284-f936bd1f3cac"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "83382740e161a8d407b2fc87575909a6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/great_falls.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/great_falls.png",
+      "relativePath": "great_falls.png",
+      "extension": "png",
+      "size": 316633,
+      "prettySize": "317 kB",
+      "modifiedTime": "2019-04-27T12:33:54.509Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.801Z",
+      "birthTime": "2019-04-27T12:33:54.488Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "great_falls.png",
+      "ext": ".png",
+      "name": "great_falls",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258069,
+      "blocks": 624,
+      "atimeMs": 1556372429768.6897,
+      "mtimeMs": 1556368434508.989,
+      "ctimeMs": 1556372429801.4595,
+      "birthtimeMs": 1556368434487.6123,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-04-27T12:33:54.509Z",
+      "ctime": "2019-04-27T13:40:29.801Z",
+      "birthtime": "2019-04-27T12:33:54.488Z"
+    },
+    "d90148df-2d2f-5147-bf5b-38cb9c489620": {
+      "id": "d90148df-2d2f-5147-bf5b-38cb9c489620",
+      "children": [
+        "46550345-3d08-5d41-b4c0-897968668d29"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c6b056d5abcbafefd382ced1268ac645",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/national_mall.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/national_mall.png",
+      "relativePath": "national_mall.png",
+      "extension": "png",
+      "size": 267542,
+      "prettySize": "268 kB",
+      "modifiedTime": "2019-04-27T12:34:14.142Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.782Z",
+      "birthTime": "2019-04-27T12:34:14.122Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "national_mall.png",
+      "ext": ".png",
+      "name": "national_mall",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258066,
+      "blocks": 528,
+      "atimeMs": 1556372429768.5508,
+      "mtimeMs": 1556368454141.7102,
+      "ctimeMs": 1556372429781.7834,
+      "birthtimeMs": 1556368454121.7822,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-04-27T12:34:14.142Z",
+      "ctime": "2019-04-27T13:40:29.782Z",
+      "birthtime": "2019-04-27T12:34:14.122Z"
+    },
+    "38cca768-1818-5274-a284-f936bd1f3cac": {
+      "id": "38cca768-1818-5274-a284-f936bd1f3cac",
+      "children": [],
+      "parent": "0d895301-6343-502b-8b35-d333c27002b3",
+      "internal": {
+        "contentDigest": "83382740e161a8d407b2fc87575909a6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "46550345-3d08-5d41-b4c0-897968668d29": {
+      "id": "46550345-3d08-5d41-b4c0-897968668d29",
+      "children": [],
+      "parent": "d90148df-2d2f-5147-bf5b-38cb9c489620",
+      "internal": {
+        "contentDigest": "c6b056d5abcbafefd382ced1268ac645",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d7331784-e96c-5315-a11d-c42015edb7a2": {
+      "id": "d7331784-e96c-5315-a11d-c42015edb7a2",
+      "children": [
+        "48705d41-2ca5-5173-81bd-af2e1c6f13e3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "084a92abc3680753990943ba65c71a1e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/navbar-bg-1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/navbar-bg-1.png",
+      "relativePath": "navbar-bg-1.png",
+      "extension": "png",
+      "size": 341205,
+      "prettySize": "341 kB",
+      "modifiedTime": "2019-04-25T22:00:27.847Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.818Z",
+      "birthTime": "2019-04-13T11:09:56.405Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "navbar-bg-1.png",
+      "ext": ".png",
+      "name": "navbar-bg-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258074,
+      "blocks": 672,
+      "atimeMs": 1556372429769.2878,
+      "mtimeMs": 1556229627846.751,
+      "ctimeMs": 1556372429818.346,
+      "birthtimeMs": 1555153796405.3845,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-04-25T22:00:27.847Z",
+      "ctime": "2019-04-27T13:40:29.818Z",
+      "birthtime": "2019-04-13T11:09:56.405Z"
+    },
+    "48705d41-2ca5-5173-81bd-af2e1c6f13e3": {
+      "id": "48705d41-2ca5-5173-81bd-af2e1c6f13e3",
+      "children": [],
+      "parent": "d7331784-e96c-5315-a11d-c42015edb7a2",
+      "internal": {
+        "contentDigest": "084a92abc3680753990943ba65c71a1e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b9f84713-833d-5c26-b311-97a358fe1d32": {
+      "id": "b9f84713-833d-5c26-b311-97a358fe1d32",
+      "children": [
+        "18dcfcee-4a85-531e-9341-e066dd67a76a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3612df9f9ea3c9e9ea0698b88631a5ed",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/smithsonian_museum.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/smithsonian_museum.png",
+      "relativePath": "smithsonian_museum.png",
+      "extension": "png",
+      "size": 393597,
+      "prettySize": "394 kB",
+      "modifiedTime": "2019-04-27T12:34:30.619Z",
+      "accessTime": "2019-04-27T13:40:29.769Z",
+      "changeTime": "2019-04-27T13:40:29.810Z",
+      "birthTime": "2019-04-27T12:34:30.590Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "smithsonian_museum.png",
+      "ext": ".png",
+      "name": "smithsonian_museum",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258072,
+      "blocks": 776,
+      "atimeMs": 1556372429768.8176,
+      "mtimeMs": 1556368470619.146,
+      "ctimeMs": 1556372429809.9788,
+      "birthtimeMs": 1556368470590.2546,
+      "atime": "2019-04-27T13:40:29.769Z",
+      "mtime": "2019-04-27T12:34:30.619Z",
+      "ctime": "2019-04-27T13:40:29.810Z",
+      "birthtime": "2019-04-27T12:34:30.590Z"
+    },
+    "18dcfcee-4a85-531e-9341-e066dd67a76a": {
+      "id": "18dcfcee-4a85-531e-9341-e066dd67a76a",
+      "children": [],
+      "parent": "b9f84713-833d-5c26-b311-97a358fe1d32",
+      "internal": {
+        "contentDigest": "3612df9f9ea3c9e9ea0698b88631a5ed",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "73a16a3c-6373-57ff-909f-a5ebdee24f69": {
+      "id": "73a16a3c-6373-57ff-909f-a5ebdee24f69",
+      "children": [
+        "99bba3a7-ae72-5145-ac2f-c8695adaa4a5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cabed672d268833348ff3dda729ef4ef",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/georgetown.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/georgetown.png",
+      "relativePath": "georgetown.png",
+      "extension": "png",
+      "size": 375094,
+      "prettySize": "375 kB",
+      "modifiedTime": "2019-04-27T12:33:34.105Z",
+      "accessTime": "2019-04-27T13:40:29.770Z",
+      "changeTime": "2019-04-27T13:40:29.822Z",
+      "birthTime": "2019-04-27T12:33:34.081Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "georgetown.png",
+      "ext": ".png",
+      "name": "georgetown",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258075,
+      "blocks": 736,
+      "atimeMs": 1556372429770.4028,
+      "mtimeMs": 1556368414105.2478,
+      "ctimeMs": 1556372429822.3154,
+      "birthtimeMs": 1556368414081.3306,
+      "atime": "2019-04-27T13:40:29.770Z",
+      "mtime": "2019-04-27T12:33:34.105Z",
+      "ctime": "2019-04-27T13:40:29.822Z",
+      "birthtime": "2019-04-27T12:33:34.081Z"
+    },
+    "99bba3a7-ae72-5145-ac2f-c8695adaa4a5": {
+      "id": "99bba3a7-ae72-5145-ac2f-c8695adaa4a5",
+      "children": [],
+      "parent": "73a16a3c-6373-57ff-909f-a5ebdee24f69",
+      "internal": {
+        "contentDigest": "cabed672d268833348ff3dda729ef4ef",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ffafcbea-d614-578f-896e-f8c7b758fcd3": {
+      "id": "ffafcbea-d614-578f-896e-f8c7b758fcd3",
+      "children": [
+        "6f64c0cc-189f-5bb3-a6c9-c577222ba169"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a96577a3f255f734ae638f26f1061c9b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/navbar-bg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/navbar-bg.png",
+      "relativePath": "navbar-bg.png",
+      "extension": "png",
+      "size": 963218,
+      "prettySize": "963 kB",
+      "modifiedTime": "2019-04-13T11:06:06.856Z",
+      "accessTime": "2019-04-27T13:32:08.700Z",
+      "changeTime": "2019-04-27T13:40:29.807Z",
+      "birthTime": "2019-04-12T13:29:47.590Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "navbar-bg.png",
+      "ext": ".png",
+      "name": "navbar-bg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258071,
+      "blocks": 1888,
+      "atimeMs": 1556371928700.4976,
+      "mtimeMs": 1555153566855.872,
+      "ctimeMs": 1556372429807.3708,
+      "birthtimeMs": 1555075787590.1882,
+      "atime": "2019-04-27T13:32:08.700Z",
+      "mtime": "2019-04-13T11:06:06.856Z",
+      "ctime": "2019-04-27T13:40:29.807Z",
+      "birthtime": "2019-04-12T13:29:47.590Z"
+    },
+    "6f64c0cc-189f-5bb3-a6c9-c577222ba169": {
+      "id": "6f64c0cc-189f-5bb3-a6c9-c577222ba169",
+      "children": [],
+      "parent": "ffafcbea-d614-578f-896e-f8c7b758fcd3",
+      "internal": {
+        "contentDigest": "a96577a3f255f734ae638f26f1061c9b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "32a4dd4a-9e59-57cf-85b4-1c4cfb8f1e04": {
+      "id": "32a4dd4a-9e59-57cf-85b4-1c4cfb8f1e04",
+      "children": [
+        "77859063-f38f-557e-8278-4e081f292be2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "84d2dbbbcd8c9fc8402a379bde8d58cf",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/index-header.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images/index-header.png",
+      "relativePath": "index-header.png",
+      "extension": "png",
+      "size": 6437288,
+      "prettySize": "6.44 MB",
+      "modifiedTime": "2019-04-26T11:56:05.412Z",
+      "accessTime": "2019-04-27T13:40:29.771Z",
+      "changeTime": "2019-04-27T13:40:29.827Z",
+      "birthTime": "2019-04-26T11:56:05.126Z",
+      "root": "/",
+      "dir": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/images",
+      "base": "index-header.png",
+      "ext": ".png",
+      "name": "index-header",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8607258077,
+      "blocks": 12576,
+      "atimeMs": 1556372429770.514,
+      "mtimeMs": 1556279765412.1003,
+      "ctimeMs": 1556372429826.9702,
+      "birthtimeMs": 1556279765125.941,
+      "atime": "2019-04-27T13:40:29.771Z",
+      "mtime": "2019-04-26T11:56:05.412Z",
+      "ctime": "2019-04-27T13:40:29.827Z",
+      "birthtime": "2019-04-26T11:56:05.126Z"
+    },
+    "77859063-f38f-557e-8278-4e081f292be2": {
+      "id": "77859063-f38f-557e-8278-4e081f292be2",
+      "children": [],
+      "parent": "32a4dd4a-9e59-57cf-85b4-1c4cfb8f1e04",
+      "internal": {
+        "contentDigest": "84d2dbbbcd8c9fc8402a379bde8d58cf",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/404.jsx",
+      "componentChunkName": "component---src-pages-404-jsx",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/404.jsx",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9051021ae2d2225333371516a2443da5",
+        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
         "owner": "internal-data-bridge"
       }
     },
@@ -548,18 +1668,19 @@
       "jsonName": "activities-60f",
       "internalComponentName": "ComponentActivities",
       "path": "/activities/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js",
-      "componentChunkName": "component---src-pages-activities-js",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.jsx",
+      "componentChunkName": "component---src-pages-activities-jsx",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
       "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.jsx",
       "id": "SitePage /activities/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "746109c844254f0c23fc258b60fd493e",
+        "contentDigest": "b443c08c08fac5333aaf58e66cd62cc2",
         "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
         "owner": "internal-data-bridge"
       }
@@ -568,18 +1689,19 @@
       "jsonName": "faq-19a",
       "internalComponentName": "ComponentFaq",
       "path": "/faq/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js",
-      "componentChunkName": "component---src-pages-faq-js",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.jsx",
+      "componentChunkName": "component---src-pages-faq-jsx",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
       "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.jsx",
       "id": "SitePage /faq/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aec700b349965595792ccbf26979349b",
+        "contentDigest": "9fd9cbdedf31101d9af66556d81930e6",
         "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
         "owner": "internal-data-bridge"
       }
@@ -588,18 +1710,40 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
       "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.jsx",
       "id": "SitePage /",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d89683649511f25537b95d7d2f56100a",
+        "contentDigest": "a15208f0420979db8d401d1ccb229b43",
+        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9d1705458503b5456135f7fc2c35b78f",
         "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
         "owner": "internal-data-bridge"
       }
@@ -608,38 +1752,19 @@
       "jsonName": "registry-952",
       "internalComponentName": "ComponentRegistry",
       "path": "/registry/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js",
-      "componentChunkName": "component---src-pages-registry-js",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.jsx",
+      "componentChunkName": "component---src-pages-registry-jsx",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
       "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.jsx",
       "id": "SitePage /registry/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "54070ab6217a9ddde203878d1d427ec8",
-        "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /rsvp/": {
-      "jsonName": "rsvp-9a0",
-      "internalComponentName": "ComponentRsvp",
-      "path": "/rsvp/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js",
-      "componentChunkName": "component---src-pages-rsvp-js",
-      "context": {},
-      "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js",
-      "id": "SitePage /rsvp/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "94d0792a853d0854454d7702bc86020a",
+        "contentDigest": "109f74d19e29340cb489e0a721942482",
         "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
         "owner": "internal-data-bridge"
       }
@@ -648,65 +1773,215 @@
       "jsonName": "travel-554",
       "internalComponentName": "ComponentTravel",
       "path": "/travel/",
-      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js",
-      "componentChunkName": "component---src-pages-travel-js",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.jsx",
+      "componentChunkName": "component---src-pages-travel-jsx",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
       "pluginCreatorId": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.jsx",
       "id": "SitePage /travel/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "60fee1731e3d714c515fb2b016bdea55",
+        "contentDigest": "b9e52bf56d80534d0669ae7ce4f12c85",
         "description": "3f5462e0-165e-5b6f-8277-82ba9bf3f435",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/404.jsx",
+      "componentChunkName": "component---src-pages-404-jsx",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/404.jsx",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bc637bbe859f5437c087e2a76aac7129",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7f619013d0289ce4a2454175e6d09a90"
+    "PLUGINS_HASH": "6182569e1ac461294ed0f7cf652dc306"
   },
   "componentDataDependencies": {
-    "nodes": {},
+    "nodes": {
+      "Site": [
+        "sq--src-components-seo-js"
+      ],
+      "d7331784-e96c-5315-a11d-c42015edb7a2": [
+        "sq--src-components-image-js"
+      ],
+      "32a4dd4a-9e59-57cf-85b4-1c4cfb8f1e04": [
+        "sq--src-components-image-js"
+      ],
+      "1fc15f2d-2e8e-5f1c-b731-6d868a055bb5": [
+        "sq--src-components-image-js"
+      ],
+      "5c2421d7-6ea6-5755-afee-733459af7059": [
+        "sq--src-components-image-js"
+      ],
+      "4921415c-3538-5a29-b479-57692c4ccf35": [
+        "sq--src-components-smallimage-js"
+      ],
+      "e2b98619-ad8a-5bf7-91ee-535aea2fe811": [
+        "sq--src-components-smallimage-js"
+      ],
+      "73a16a3c-6373-57ff-909f-a5ebdee24f69": [
+        "sq--src-components-smallimage-js"
+      ],
+      "0d895301-6343-502b-8b35-d333c27002b3": [
+        "sq--src-components-smallimage-js"
+      ],
+      "d90148df-2d2f-5147-bf5b-38cb9c489620": [
+        "sq--src-components-smallimage-js"
+      ],
+      "b9f84713-833d-5c26-b311-97a358fe1d32": [
+        "sq--src-components-smallimage-js"
+      ],
+      "48705d41-2ca5-5173-81bd-af2e1c6f13e3": [
+        "sq--src-components-image-js"
+      ],
+      "77859063-f38f-557e-8278-4e081f292be2": [
+        "sq--src-components-image-js"
+      ],
+      "51157ce0-8f6d-5b25-8287-a37998907f33": [
+        "sq--src-components-image-js"
+      ],
+      "662fad75-58c0-575d-b161-7ec9a3833357": [
+        "sq--src-components-image-js"
+      ],
+      "7e2e83e2-8e0c-576c-9887-c10e8a2fe22e": [
+        "sq--src-components-smallimage-js"
+      ],
+      "1181332d-b675-54a6-bfb8-f1c22e5779d3": [
+        "sq--src-components-smallimage-js"
+      ],
+      "99bba3a7-ae72-5145-ac2f-c8695adaa4a5": [
+        "sq--src-components-smallimage-js"
+      ],
+      "38cca768-1818-5274-a284-f936bd1f3cac": [
+        "sq--src-components-smallimage-js"
+      ],
+      "46550345-3d08-5d41-b4c0-897968668d29": [
+        "sq--src-components-smallimage-js"
+      ],
+      "18dcfcee-4a85-531e-9341-e066dd67a76a": [
+        "sq--src-components-smallimage-js"
+      ]
+    },
     "connections": {}
   },
   "jsonDataPaths": {
-    "faq-19a": "927/path---faq-19-a-275-NZuapzHg3X9TaN1iIixfv1W23E",
-    "activities-60f": "446/path---activities-60-f-39e-NZuapzHg3X9TaN1iIixfv1W23E",
-    "registry-952": "519/path---registry-952-dd3-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "faq-19a": "598/path---faq-19-a-275-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "activities-60f": "189/path---activities-60-f-39e-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "registry-952": "280/path---registry-952-dd3-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "rsvp-9a0": "409/path---rsvp-9-a-0-00d-NZuapzHg3X9TaN1iIixfv1W23E",
-    "travel-554": "726/path---travel-554-9dc-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+    "travel-554": "299/path---travel-554-9dc-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "sq--src-components-seo-js": 2417117884,
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "page-2-fbc": "726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "sq--src-components-smallimage-js": 2425291810,
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "sq--src-components-image-js": 4283674626
   },
   "components": {
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js": {
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/404.jsx": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/404.jsx",
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.js"
+      "pages": [
+        "/404/",
+        "/404.html"
+      ],
+      "isInBootstrap": true
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js": {
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.jsx": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/activities.jsx",
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.js"
+      "pages": [
+        "/activities/"
+      ],
+      "isInBootstrap": true
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js": {
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.jsx": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/faq.jsx",
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.js"
+      "pages": [
+        "/faq/"
+      ],
+      "isInBootstrap": true
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js": {
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.jsx": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/index.jsx",
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.js"
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js": {
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/page-2.js": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/page-2.js",
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/rsvp.js"
+      "pages": [
+        "/page-2/"
+      ],
+      "isInBootstrap": true
     },
-    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js": {
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.jsx": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/registry.jsx",
       "query": "",
-      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.js"
+      "pages": [
+        "/registry/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.jsx": {
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/pages/travel.jsx",
+      "query": "",
+      "pages": [
+        "/travel/"
+      ],
+      "isInBootstrap": true
     }
   },
-  "staticQueryComponents": {}
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "usersHscofieldDocumentsCodingDocsPersonalProjectsWeddingWebsiteSrcComponentsImageJs4283674626",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersHscofieldDocumentsCodingDocsPersonalProjectsWeddingWebsiteSrcComponentsImageJs4283674626 {\n  navbarBackground: file(relativePath: {eq: \"navbar-bg-1.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1600) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  headerImage: file(relativePath: {eq: \"index-header.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1600) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  footerBackground: file(relativePath: {eq: \"footer-bg.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1600) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  zola: file(relativePath: {eq: \"zola-logo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1600) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 4283674626
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersHscofieldDocumentsCodingDocsPersonalProjectsWeddingWebsiteSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersHscofieldDocumentsCodingDocsPersonalProjectsWeddingWebsiteSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    },
+    "sq--src-components-smallimage-js": {
+      "name": "usersHscofieldDocumentsCodingDocsPersonalProjectsWeddingWebsiteSrcComponentsSmallimageJs2425291810",
+      "componentPath": "/Users/hscofield/Documents/coding-docs/personal_projects/wedding-website/src/components/smallimage.js",
+      "id": "sq--src-components-smallimage-js",
+      "jsonName": "sq--src-components-smallimage-js",
+      "query": "query usersHscofieldDocumentsCodingDocsPersonalProjectsWeddingWebsiteSrcComponentsSmallimageJs2425291810 {\n  arlington: file(relativePath: {eq: \"arlington.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 200, maxHeight: 200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  escape: file(relativePath: {eq: \"escape_room.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 200, maxHeight: 200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  georgetown: file(relativePath: {eq: \"georgetown.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 200, maxHeight: 200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  great: file(relativePath: {eq: \"great_falls.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 200, maxHeight: 200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  mall: file(relativePath: {eq: \"national_mall.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 200, maxHeight: 200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  smith: file(relativePath: {eq: \"smithsonian_museum.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 200, maxHeight: 200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2425291810
+    }
+  }
 }

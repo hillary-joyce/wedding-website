@@ -1,31 +1,41 @@
 [
     {
-        "componentChunkName": "component---src-pages-index-js",
+        "componentChunkName": "component---src-pages-index-jsx",
         "jsonName": "index",
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-activities-js",
+        "componentChunkName": "component---src-pages-404-jsx",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-jsx",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-activities-jsx",
         "jsonName": "activities-60f",
         "path": "/activities/"
     },
     {
-        "componentChunkName": "component---src-pages-faq-js",
+        "componentChunkName": "component---src-pages-faq-jsx",
         "jsonName": "faq-19a",
         "path": "/faq/"
     },
     {
-        "componentChunkName": "component---src-pages-registry-js",
+        "componentChunkName": "component---src-pages-page-2-js",
+        "jsonName": "page-2-fbc",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-registry-jsx",
         "jsonName": "registry-952",
         "path": "/registry/"
     },
     {
-        "componentChunkName": "component---src-pages-rsvp-js",
-        "jsonName": "rsvp-9a0",
-        "path": "/rsvp/"
-    },
-    {
-        "componentChunkName": "component---src-pages-travel-js",
+        "componentChunkName": "component---src-pages-travel-jsx",
         "jsonName": "travel-554",
         "path": "/travel/"
     }
